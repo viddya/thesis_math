@@ -1,0 +1,127 @@
+%
+%      File Name : thesis.tex
+%  Creation Date : 07-08-2012
+%  Last Modified : Tue Jan 29 15:48:33 2013
+%
+
+\documentclass[11pt,letterpaper,]{thesis2}
+%\input{thesis_definitions}
+\input{thesis_environment}
+\begin{document}
+
+% Set page numbering -- ToDo
+\pagenumbering{roman}
+\pagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%
+% Title page
+%%%%%%%%%%%%%%%%%%%
+\title{POINT IN POLYGON (PIP) SEARCH ACCELERATION USING GPU BASED QUADTREE FRAMEWORK}
+\author{SREEVIDDYADEVI}{KARUNAGARAN}
+\otherdegrees{B.E., Anna University, India, 2008}
+%\degree{Master of Science}{M.S., Applied Mathematics}
+\degree{Master of Science}{M.S., Electrical Engineering}
+\degreeyear{2016} \dept{Electrical Engineering}{}
+\titlepage
+
+\pagestyle{fancy}
+
+%%%%%%%%%%%%%%%%%%%
+% Approval Page
+%  note: Ph.D. students may add more readers as needed.
+%%%%%%%%%%%%%%%%%%%
+\advisor{Professor}{Dan Connors}
+\readerone{Dan Connors}
+\readertwo{Yiming Deng}
+\readerthree{Chao Liu}
+\chair{Dan Connors}
+\newdate{defensedate}{14}{04}{2016} % <day>, <month>, <year> 
+\approvalpage
+
+%%%%%%%%%%%%%%%%%%%
+% Abstract Page -- ToDo
+%%%%%%%%%%%%%%%%%%%
+\abstractpage{\input{thesis_abstract}}
+
+%%%%%%%%%%%%%%%%%%%
+% Dedication page
+%%%%%%%%%%%%%%%%%%%
+% \pagestyle{empty}
+%\clearpage \vspace*{.25in}
+%\centerheading{DEDICATION}
+%\begin{block}
+%\input{thesis_dedication}
+%\end{block}
+%\newpage
+
+%%%%%%%%%%%%%%%%%%%
+% Acknowledgment page
+%%%%%%%%%%%%%%%%%%%
+%\clearpage \vspace*{.25in}
+%\centerheading{ACKNOWLEDGMENT}
+%\begin{block}
+%\input{thesis_thanks}
+%\end{block}
+%\newpage
+
+%%%%%%%%%%%%%%%%%%%
+% Table of contents
+%%%%%%%%%%%%%%%%%%%
+% \pagestyle{plain}
+\tableofcontents
+\listoftables
+\listoffigures
+
+%%%%%%%%%%%%%%%%%%%%%
+% Start first chapter
+%%%%%%%%%%%%%%%%%%%%%
+% reset page numbering -- ToDo
+\setcounter{page}{0}
+\pagenumbering{arabic}
+
+\chapter{Introduction}\label{chap:Introduction}
+\input{introduction}
+\chapter{Background and Motivation}\label{chap:background}
+\input{background}
+\chapter{Approach}\label{chap:approach}
+\input{approach}
+\chapter{Experimental Results}\label{chap:results}
+\input{exper}
+\chapter{Conclusion}\label{chap:conclusion}
+\input{conclusion}
+
+%%%%%%%%%%%%%%%%%%%%%
+% Back-matter
+%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% For the bibliography there are two options. (1) You can create a  master file
+% called thesis.bib (template included in this % collection of files) and use
+% the \bibliography{thesis}  command. The advantage is that thesis.bib can be
+% used for other papers (2) You can create the file thesis_bib.tex which is a
+% list of references specifically for this thesis.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%% Option 1 %%%%%%%%%%%%%%%%%%%%%%
+%\nocite{*} % forces all references to be printed.
+
+\bibliographystyle{plain}
+\bibliography{thesis}
+
+%%%%%%%%%%%%%%%%%%%%%
+% Appendices
+%%%%%%%%%%%%%%%%%%%%%
+\begin{appendix}
+\chapter{CUDA Code for Brute Force Search} \label{appendix1}
+\input{thesis_appendix1.tex}
+\chapter{Header File for Memory Allocation} \label{appendix2}
+\renewcommand{\theequation}{B.\arabic{equation}}
+\input{thesis_appendix2.tex}
+\chapter{CUDA C Code for PIP Search on GPU} \label{appendix3}
+\renewcommand{\theequation}{B.\arabic{equation}}
+\input{thesis_appendix3.tex}
+\end{appendix}
+
+%%%%%%%%%%%%%%%% Option 2 %%%%%%%%%%%%%%%%%%%%%%%%%%
+%\input thesis_bib.tex
+\end{document}

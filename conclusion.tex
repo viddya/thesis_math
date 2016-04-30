@@ -1,0 +1,13 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The range search which is a fundamental operation in GIS and spatial databases always performs better when a spatial data structure is used and its performance is further improved when the search is implemented on a GPU.
+This paper has proved that an irregular pointer based quadtree  need not be linearized in order to achieve a significant performance gain on GPU. And the CPU-GPU approach provides a speed up of 3x to 500x than the pure CPU approach. 
+In a real world scenario, the range search problem is carried out on irregular polygons. For future work,  the work presented in this paper can be extended to implement PIP search on irregular polygons. 
+The work on the GPU can be extended to compute larger data sets as the size of RAM per GPU increases. With increase in shared memory size, quadtrees with deeper layers can be traversed. There would be a significant improvement in the performance with increase in shared memory size and increase in global memory bandwidth.
+
+
+
+
+
+
+

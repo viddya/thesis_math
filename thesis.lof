@@ -1,0 +1,43 @@
+Figure
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Example of Data Points Mapped within a Quadtree Data Structure.}}{6}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Level 1 of Quadtree.}}{7}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Level 2 of Quadtree.}}{7}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Level 3 of Quadtree.}}{7}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Level 4 of Quadtree.}}{8}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces NW - North west, NE - North east, SW - South west and SE - South east.}}{10}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Kepler Architecture.}}{13}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces GTX680 SMX.}}{14}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Kepler Memory Hierarchy.}}{15}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Kepler Work Flow.}}{16}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Comparing Bruteforce Search and Quadtree Search on CPU.}}{18}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Comparing Bruteforce Search on CPU with GPU.}}{19}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces CPU Performance of Different Sized Polygons using Quadtree.}}{20}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Overlap of Node on the Horizontal Edge of Polygon.}}{23}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Overlap of Node on the Vertical Edge of Polygon.}}{23}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces BFS GPU Implementation.}}{30}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Process Flow.}}{32}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Level 1 Quadtree.}}{33}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Level 2 Quadtree.}}{33}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Level 3 Quadtree.}}{34}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Level 4 Quadtree.}}{34}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Sample Datapoints (left) and the Quadtree (right) at Level 1.}}{35}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Sample Datapoints (left) and the Quadtree (right) at Level 2.}}{35}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Sample Datapoints (left) and the Quadtree (right) at Level 3.}}{36}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Sample Datapoints (left) and the Quadtree (right) at Level 4.}}{37}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Sample Datapoints (left) and the Quadtree (right) at Level 1.}}{37}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Sample Datapoints (left) and the Quadtree (right) at Level 2.}}{38}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Sample Datapoints (left) and the Quadtree (right) at Level 3.}}{38}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Sample Datapoints (left) and the Quadtree (right) at Level 4.}}{39}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Sample Datapoints (left) and the Quadtree (right) at Level 1.}}{40}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Sample Datapoints (left) and the Quadtree (right) at Level 2.}}{40}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Sample Datapoints (left) and the Quadtree (right) at Level 3.}}{41}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Sample Datapoints (left) and the Quadtree (right) at Level 4.}}{41}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Stack Based Iterative BFS Traversal.}}{42}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Sample Datapoints (left) and the Quadtree (right) at Level 1.}}{42}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Sample Datapoints (left) and Quadtree (right) at Level 2.}}{43}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Performance Comparison between CPU and GPU for Small Polygons.}}{45}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Performance Comparison between CPU and GPU for Medium Polygons.}}{45}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Performance Comparison between CPU and GPU for Large Polygons.}}{46}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Performance Comparison for Different Sized Polygons using GPU.}}{47}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Execution Time of Least to Most Complex Medium Sized Polygons.}}{48}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Speed Up of GPU over CPU.}}{49}

@@ -1,0 +1,98 @@
+\begin{thebibliography}{10}
+
+\bibitem{Bedorf:2012:SOG:2133856.2134140}
+Jeroen B{\'e}dorf, Evghenii Gaburov, and Simon Portegies~Zwart.
+\newblock A sparse octree gravitational n-body code that runs entirely on the
+  gpu processor.
+\newblock {\em J. Comput. Phys.}, 231(7):2825--2839, April 2012.
+
+\bibitem{barnes:hut}
+Martin Burtscher and Keshav Pingali.
+\newblock An efficient cuda 6 implementation of the tree-based barnes hut
+  n-body algorithm.
+
+\bibitem{Eppstein:2000:FHC:351827.351829}
+David Eppstein.
+\newblock Fast hierarchical clustering and other applications of dynamic
+  closest pairs.
+\newblock {\em J. Exp. Algorithmics}, 5, December 2000.
+
+\bibitem{goldfarb13sc}
+Michael Goldfarb, Youngjoon Jo, and Milind Kulkarni.
+\newblock General transformations for gpu execution of tree traversals.
+\newblock In {\em Proceedings of SC13: International Conference for High
+  Performance Computing, Networking, Storage and Analysis}, SC '13, pages
+  10:1--10:12, New York, NY, USA, 2013. ACM.
+
+\bibitem{local}
+Georgi Gou, C.;~Gaydadjiev.
+\newblock Addressing gpu on-chip shared memory bank conflicts using elastic
+  pipeline.
+\newblock {\em International Journal of Parallel Programming}, 41(3), 2013.
+
+\bibitem{Gupta:2012:ASO}
+Kshitij Gupta, Jeff~A. Stuart, and John~D. Owens.
+\newblock A study of persistent threads style gpu programming for gpgpu
+  workloads.
+\newblock In {\em Innovative Parallel Computing}, page~14, May 2012.
+
+\bibitem{divergence1}
+Tianyi~David Han and Tarek~S. Abdelrahman.
+\newblock Reducing branch divergence in gpu programs.
+\newblock In {\em Proceedings of the Fourth Workshop on General Purpose
+  Processing on Graphics Processing Units}, GPGPU-4, pages 3:1--3:8, New York,
+  NY, USA, 2011. ACM.
+
+\bibitem{Kelly:gpu}
+Maria Kelly and Alexander Breslow.
+\newblock Quadtree construction on the gpu: A hybrid cpu-gpu approach.
+  https://www.sccs.swarthmore.edu/users/10/mkelly1/quadtrees.pdf.
+
+\bibitem{Kirk:2010:PMP:1841511}
+David~B. Kirk and Wen-mei~W. Hwu.
+\newblock {\em Programming Massively Parallel Processors: A Hands-on Approach}.
+\newblock Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edition,
+  2010.
+
+\bibitem{divergence2}
+Jiayuan Meng, David Tarjan, and Kevin Skadron.
+\newblock Dynamic warp subdivision for integrated branch and memory divergence
+  tolerance.
+\newblock {\em SIGARCH Comput. Archit. News}, 38(3):235--246, June 2010.
+
+\bibitem{nvidia:12:gk110}
+NVIDIA.
+\newblock White paper keplertm gk110.
+  https://www.nvidia.com/content/pdf/kepler/nvidia-kepler-gk110-architecture-whitepaper.pdf,
+  accessed, 2012.
+
+\bibitem{nvidia:12:gtx680tech}
+NVIDIA.
+\newblock White paper nvidia geforce gtx 680., 2012.
+
+\bibitem{owens:08:gc}
+John~D. Owens, Mike Houston, David Luebke, Simon Green, John~E. Stone, and
+  James~C. Phillips.
+\newblock {GPU} computing.
+\newblock {\em Proceedings of the IEEE}, 96(5):879--899, May 2008.
+
+\bibitem{shaff:quad}
+Clifford~A. Shaffer and Patrick~R. Brown.
+\newblock A paging scheme for pointer-based quadtree.
+  https://people.cs.vt.edu/shaffer/papers/paging.pdf.
+
+\bibitem{memory}
+Bo~Wu, Zhijia Zhao, Eddy~Z. Zhang, Yunlian Jiang, and Xipeng Shen.
+\newblock Complexity analysis and algorithm design for reorganizing data to
+  minimize non-coalesced memory accesses on gpu.
+\newblock {\em 18th ACM SIGPLAN Symposium on Principles and Practice of
+  Parallel Programming}, 2013.
+
+\bibitem{DBLP:journals/gis/ZhangY13}
+Jianting Zhang and Simin You.
+\newblock High-performance quadtree constructions on large-scale geospatial
+  rasters using {GPGPU} parallel primitives.
+\newblock {\em International Journal of Geographical Information Science},
+  27(11):2207--2226, 2013.
+
+\end{thebibliography}

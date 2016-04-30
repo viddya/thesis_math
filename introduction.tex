@@ -1,0 +1,132 @@
+%
+% File - ch1.tex
+%
+%
+% Description:
+% This file should contain the first real chapter or section of your
+% thesis.
+%
+%
+% 1st paragraph is background on concept of computer vision
+%Computer vision is what and why is it important....
+
+The point-in-polygon (PIP) problem defines for a given set of points
+in a plane whether those points are inside, outside or on the
+boundary of a polygon. The PIP for a plane is a special case of point
+range finding that has applications in numerous areas that deal with
+processing geometrical data, such as computer graphics, computer
+vision, geographical information systems (GIS), motion planning and
+CAD. Point in range search can performed by a brute force
+search method, however for solution becomes increasingly prohibitive
+when scaling the input to a large number of data points and distinct
+ranges (polygons).
+
+Range search algorithms, which make use of spatial data structures,
+perform much better than the ones that do not partition the data
+before processing. Quadtree is a hierarchical spatial data structure
+that is used for both indexing and compressing geographic database
+layers due its applicability to many types of data, its ease of
+implementation and relatively good performance. 
+As done traditionally, the quadtree is built on the CPU. To speed up
+the range searching problems, it is essential to increase the
+threshold on the number of queries processed within a given time
+frame. Purely sequential approach to this will demand increase in
+processor speeds.  
+
+Graphics Processing Units (GPUs) have proven to be
+a powerful and efficient computational platform. An increasing number
+of applications are demanding more efficient computing power at a
+lower cost.  The modern GPU can natively perform thousands of parallel
+computations per clock cycle.  Relative to the traditional power of a
+CPU, the GPU can far out-perform the CPU in terms of computational
+power or Floating Point Operations per Second (FLOPS). Traditionally
+GPUs have been used exclusively for graphics processing. Recent
+developments have allowed GPUs to be used for more than just graphics
+processing and rendering. With a growing set of applications these
+new GPUs are known as GPGPUs (General Purpose GPUs).
+NVIDIA\textsuperscript{\textregistered} has developed the CUDA 
+(Compute Unified Device Architecture) API (Application Programming
+Interface) which enables software developers to access the GPU through
+standard programming languages such as 'C'.  CUDA gives developers
+access to the GPU's virtual instruction set, onboard memory and the
+parallel computational elements.  Taking advantage of this parallel
+computational power will result in significant speedup for multiple
+applications.  One such application is computer vision algorithms.
+From the assembly line to home entertainment systems, the need for
+efficient real-time computer vision systems is growing quickly.  This
+paper explores the potential power of using the CUDA API and
+NVIDIA\textsuperscript{\textregistered} GPUs to speedup common
+computer vision algorithms.  Through real-life algorithm optimization
+and translation, several approaches to GPU optimization for existing
+code are proposed in this report.
+
+%% Premise : GPU doesn't hangle irregular
+In the past few years, there has been a rapid adoption of GPGPU
+parallel computing techniques for both high-performance computing and
+mobile systems.  As GPUs exploit models of data-parallel execution
+that generally describes a common task across different parallel
+computing elements, there can be severe limitations for any irregular
+individual thread behaviors.  Irregular execution disrupts the
+efficiency of the rigid GPU groups of threads by causing workload
+disparity that effectively leads to idle or underutilized resource
+units.  Most research focus is on the hardware aspects of execution
+disparity such as branch divergence~\cite{divergence1}, local memory
+bank conflicts~\cite{local} and non-coalesced global memory
+accesses~\cite{memory}.  There are a number of proposed architecture
+concepts to mitigate some of the performance downfalls of handling
+non-uniform data on GPU architectures~\cite{divergence2}.  Many of the
+proposed solutions reduce the frequency of the occurrences but do not
+fully address the inherent run-time execution characteristics of an
+algorithm. Overall,
+irregular data patterns limit the performance potential of GPGPU
+algorithms.
+
+%% There are attempts to solve the problem
+While irregular algorithms restrain the full use of data-level
+resources of GPU systems, GPU implementations may still achieve
+performance benefit over multicore implementations. In effect, the raw
+number of GPU resources serves as a brute-force method of carrying out
+computations with significant arithmetic intensity.  Nevertheless,
+there are alternative and emerging software-based models of
+distributing execution tasks on GPUs such as dynamic parallelism
+support. Another technique proposed is persistently scheduled thread
+groups~\cite{Gupta:2012:ASO} that abandons the traditional data-level
+model for stable thread groups assigned to GPU compute units that
+dynamically retrieve computation tasks from software-based workload
+queues.  The result of persistently scheduled groups can be better
+load balance, utilization and reduced overhead in thread block
+creation. At the same time, such techniques have not fully addressed
+exploiting patterns and variations in model data specific to
+algorithms.
+
+%% What are the problems
+Generally tasks that involve irregular data or non-deterministic
+algorithms are not effectively mapped to GPU systems.  For example, in
+graph-based algorithms, the irregular nature of the edge connectivity
+between graph nodes is not well suited for data-level task definition
+on GPU computing units. In this case, a group of neighboring GPU
+threads may be assigned a diverse workload of processing nodes with a
+few edges as well as nodes with thousands of edges.  This form of
+imbalance is characterized as {\em static workload disparity} as a
+portion of the runtime utilization can be traced to the static
+connectivity of graph nodes.  Only if a graph's structure is
+persistent, not changing over several evaluations, might there be
+well-reasoned opportunities to reorganize the data, effectively
+performing static load balancing in which each GPU thread group is
+assigned data with less variation in work.  However, in such cases,
+there is cost to the partitioning graph nodes to the model data.
+
+This thesis investigates the potential of processing quadtrees for PIP search problems
+that execute on GPUs.  As GPUs operate in a heterogeneous system in which both
+the CPU and GPU perform some fraction of the computational work, there are
+unique performance constraints to explore.  This thesis considers two primary parameters
+in scaling optimal GPU quad-tree solutions: data point problem size and characteristics of polygons being searched.
+
+
+This thesis is organized as follows:
+Chapter~\ref{chap:background} discusses the motivation and background of computer vision applications.
+Chapter~\ref{chap:approach} examines several examples of the PIP problem solving on GPUs.
+The experimental results section, Chapter~\ref{chap:results}, shows performance
+data for the various optimization cases.  Finally, Chapter~\ref{chap:conclusion} concludes this
+thesis.
+

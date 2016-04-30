@@ -1,0 +1,1090 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  30 APR 2016 00:24
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**thesis
+(./thesis.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./thesis2.cls
+Document Class: thesis2 2003/11/30 UCD Thesis Class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/theorem.sty
+Package: theorem 2014/10/28 v2.2c Theorem extension package (FMi)
+\theorem@style=\toks15
+\theorem@bodyfont=\toks16
+\theorempreskipamount=\skip43
+\theorempostskipamount=\skip44
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/thp.sty
+File: thp.sty 2014/10/28 v2.2c Theorem extension package (FMi)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip45
+\LTright=\skip46
+\LTpre=\skip47
+\LTpost=\skip48
+\LTchunksize=\count89
+\LTcapwidth=\dimen107
+\LT@head=\box26
+\LT@firsthead=\box27
+\LT@foot=\box28
+\LT@lastfoot=\box29
+\LT@cols=\count90
+\LT@rows=\count91
+\c@LT@tables=\count92
+\c@LT@chunks=\count93
+\LT@p@ftn=\toks17
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks18
+\ex@=\dimen108
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen109
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count94
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count95
+\leftroot@=\count96
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count97
+\DOTSCASE@=\count98
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen110
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count99
+\c@MaxMatrixCols=\count100
+\dotsspace@=\muskip10
+\c@parentequation=\count101
+\dspbrk@lvl=\count102
+\tag@help=\toks19
+\row@=\count103
+\column@=\count104
+\maxfields@=\count105
+\andhelp@=\toks20
+\eqnshift@=\dimen111
+\alignsep@=\dimen112
+\tagshift@=\dimen113
+\tagwidth@=\dimen114
+\totwidth@=\dimen115
+\lineht@=\dimen116
+\@envbody=\toks21
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/moreverb/moreverb.sty
+Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks23
+\verbatim@line=\toks24
+\verbatim@in@stream=\read1
+)
+\tab@position=\count106
+\tab@size=\count107
+\listing@line=\count108
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip52
+\f@ncyO@elh=\skip53
+\f@ncyO@erh=\skip54
+\f@ncyO@olh=\skip55
+\f@ncyO@orh=\skip56
+\f@ncyO@elf=\skip57
+\f@ncyO@erf=\skip58
+\f@ncyO@olf=\skip59
+\f@ncyO@orf=\skip60
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count109
+\Gm@cntv=\count110
+\c@Gm@tempcnt=\count111
+\Gm@bindingoffset=\dimen117
+\Gm@wd@mp=\dimen118
+\Gm@odd@mp=\dimen119
+\Gm@even@mp=\dimen120
+\Gm@layoutwidth=\dimen121
+\Gm@layoutheight=\dimen122
+\Gm@layouthoffset=\dimen123
+\Gm@layoutvoffset=\dimen124
+\Gm@dimlist=\toks25
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/datetime/datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/05/04 v2.2 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count112
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2015/05/05 v3.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
+)
+\XKV@depth=\count113
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+Package: fcnumparser 2012/09/28
+\fc@digit@counter=\count114
+))
+\c@padzeroesN=\count115
+\fc@tmpcatcode=\count116
+\@DT@modctr=\count117
+\@ordinalctr=\count118
+\@orgargctr=\count119
+\@strctr=\count120
+\@tmpstrctr=\count121
+\@DT@loopN=\count122
+\@DT@X=\count123
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2013/08/17
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count124
+\@month=\count125
+\@year=\count126
+\c@HOUR=\count127
+\c@HOURXII=\count128
+\c@MINUTE=\count129
+\c@TOHOUR=\count130
+\c@TOMINUTE=\count131
+\c@SECOND=\count132
+\currenthour=\count133
+\currentminute=\count134
+\currentsecond=\count135
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+\@dtctr=\count136
+\dayofyear=\count137
+\dayofweek=\count138
+LaTeX Info: Redefining \today on input line 736.
+\dt@a=\toks28
+\dt@b=\toks29
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count139
+\rotFPtop=\skip61
+\rotFPbot=\skip62
+\rot@float@box=\box32
+\rot@mess@toks=\toks30
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen125
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+\C@aptionWidth=\skip63
+)
+(./thesis_environment.tex
+(/usr/local/texlive/2015/texmf-dist/tex/latex/floatrow/floatrow.sty
+Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen126
+\captionmargin@=\dimen127
+\captionwidth=\dimen128
+\caption@tempdima=\dimen129
+\caption@indent=\dimen130
+\caption@parindent=\dimen131
+\caption@hangindent=\dimen132
+)
+\c@float@type=\count140
+\float@exts=\toks31
+\float@box=\box33
+\@floatcapt=\box34
+Package floatrow Info: Modified float package code loaded on input line 455.
+Package floatrow Info: Modified rotfloat package code loaded on input line 473.
+
+\FR@everyfloat=\toks32
+\flrow@foot=\insert233
+\FB@wd=\dimen133
+\FBo@wd=\dimen134
+\FBc@wd=\dimen135
+\FBo@ht=\skip64
+\FBc@ht=\skip65
+\FBf@ht=\skip66
+\FBo@max=\skip67
+\FBc@max=\skip68
+\FBf@max=\skip69
+\c@FBl@b=\count141
+\floatbox@depth=\count142
+\c@FRobj=\count143
+\c@FRsobj=\count144
+\Xhsize=\skip70
+\sXhsize=\skip71
+\Zhsize=\skip72
+\sZhsize=\skip73
+\flrow@rowbox=\box35
+\FR@Zunitlength=\dimen136
+\c@FBcnt=\count145
+\FPOScnt=\count146
+\LTleft=\skip74
+\LTright=\skip75
+\LTleft=\skip76
+\LTright=\skip77
+\flrow@types=\toks33
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count147
+\lst@gtempboxa=\box36
+\lst@token=\toks34
+\lst@length=\count148
+\lst@currlwidth=\dimen137
+\lst@column=\count149
+\lst@pos=\count150
+\lst@lostspace=\dimen138
+\lst@width=\dimen139
+\lst@newlines=\count151
+\lst@lineno=\count152
+\lst@maxwidth=\dimen140
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+\c@lstnumber=\count153
+\lst@skipnumbers=\count154
+\lst@framebox=\box37
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/09/06 1.5e listings configuration
+))
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 142.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+)
+\c@thm=\count155
+\c@example=\count156
+)
+(./thesis.aux)
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count157
+\scratchdimen=\dimen141
+\scratchbox=\box38
+\nofMPsegments=\count158
+\nofMParguments=\count159
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count160
+\MPscratchDim=\dimen142
+\MPnumerator=\count161
+\makeMPintoPDFobject=\count162
+\everyMPtoPDFconversion=\toks36
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(108.405pt, 433.62pt, 72.27pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43pt, 72.27pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=433.62pt
+* \textheight=650.43pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=36.13501pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=18.06749pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/floatrow/fr-longtable.sty
+Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
+
+\flrow@LT@lasthead=\box39
+\flrow@LT@prelastfoot=\box40
+\c@FBLTpage=\count163
+)
+\c@lstlisting=\count164
+
+[1
+
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2
+
+
+] (./thesis_abstract.tex [3
+
+
+]) [4] (./thesis.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 1.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 1.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 1.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+) [5
+
+
+])
+\tf@toc=\write3
+\openout3 = `thesis.toc'.
+
+ [6]
+(./thesis.lot)
+\tf@lot=\write4
+\openout4 = `thesis.lot'.
+
+ [7
+
+
+] (./thesis.lof [8
+
+
+])
+\tf@lof=\write5
+\openout5 = `thesis.lof'.
+
+ [9] (./introduction.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 47.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 47.
+ [1
+
+
+] [2] [3])
+[4] (./background.tex <Images/webQuad.png, id=49, 815.045pt x 402.50375pt>
+File: Images/webQuad.png Graphic file (type png)
+
+<use Images/webQuad.png>
+Package pdftex.def Info: Images/webQuad.png used on input line 38.
+(pdftex.def)             Requested size: 407.5215pt x 201.25137pt.
+ [5
+
+]
+<Images/Quadtree_construction1.png, id=53, 361.35pt x 186.6975pt>
+File: Images/Quadtree_construction1.png Graphic file (type png)
+
+<use Images/Quadtree_construction1.png>
+Package pdftex.def Info: Images/Quadtree_construction1.png used on input line 6
+6.
+(pdftex.def)             Requested size: 180.67456pt x 93.34851pt.
+ [6 <./Images/webQuad.png>]
+<Images/Quadtree_construction2.png, id=57, 361.35pt x 185.69376pt>
+File: Images/Quadtree_construction2.png Graphic file (type png)
+
+<use Images/Quadtree_construction2.png>
+Package pdftex.def Info: Images/Quadtree_construction2.png used on input line 7
+6.
+(pdftex.def)             Requested size: 180.67456pt x 92.84665pt.
+
+<Images/Quadtree_construction3.png, id=58, 362.35374pt x 186.6975pt>
+File: Images/Quadtree_construction3.png Graphic file (type png)
+
+<use Images/Quadtree_construction3.png>
+Package pdftex.def Info: Images/Quadtree_construction3.png used on input line 8
+5.
+(pdftex.def)             Requested size: 181.17642pt x 93.34851pt.
+
+<Images/Quadtree_construction4.png, id=59, 363.3575pt x 187.70125pt>
+File: Images/Quadtree_construction4.png Graphic file (type png)
+
+<use Images/Quadtree_construction4.png>
+Package pdftex.def Info: Images/Quadtree_construction4.png used on input line 9
+4.
+(pdftex.def)             Requested size: 181.6783pt x 93.85039pt.
+ [7 <./Images/Quadtree_construction1.png> <./Images/Quadtree_construction2.png>
+ <./Images/Quadtree_construction3.png>]
+[8 <./Images/Quadtree_construction4.png>]
+<Images/Childquad.png, id=66, 148.555pt x 148.555pt>
+File: Images/Childquad.png Graphic file (type png)
+
+<use Images/Childquad.png>
+Package pdftex.def Info: Images/Childquad.png used on input line 158.
+(pdftex.def)             Requested size: 118.84415pt x 118.84415pt.
+ [9] [10 <./Images/Childquad.png>] [11]
+<Images/KeplerArch.png, id=82, 652.4375pt x 702.625pt>
+File: Images/KeplerArch.png Graphic file (type png)
+
+<use Images/KeplerArch.png>
+Package pdftex.def Info: Images/KeplerArch.png used on input line 237.
+(pdftex.def)             Requested size: 260.97037pt x 281.04501pt.
+ [12]
+<Images/gpu_architecture.png, id=86, 386.44376pt x 632.3625pt>
+File: Images/gpu_architecture.png Graphic file (type png)
+
+<use Images/gpu_architecture.png>
+Package pdftex.def Info: Images/gpu_architecture.png used on input line 246.
+(pdftex.def)             Requested size: 193.2214pt x 316.18048pt.
+ [13 <./Images/KeplerArch.png>]
+<Images/memory.png, id=90, 455.7025pt x 542.025pt>
+File: Images/memory.png Graphic file (type png)
+ <use Images/memory.png>
+Package pdftex.def Info: Images/memory.png used on input line 258.
+(pdftex.def)             Requested size: 182.27776pt x 216.80615pt.
+
+[14 <./Images/gpu_architecture.png>] [15 <./Images/memory.png>]
+<Images/gpu_execution_hl_overview.png, id=97, 552.0625pt x 667.49374pt>
+File: Images/gpu_execution_hl_overview.png Graphic file (type png)
+
+<use Images/gpu_execution_hl_overview.png>
+Package pdftex.def Info: Images/gpu_execution_hl_overview.png used on input lin
+e 294.
+(pdftex.def)             Requested size: 220.82108pt x 266.99277pt.
+ [16 <./Images/gpu_execution_hl_overview.png>] [17]
+<Images/BruteVsQuadCPU_logscale_new_2.png, id=105, 578.16pt x 433.62pt>
+File: Images/BruteVsQuadCPU_logscale_new_2.png Graphic file (type png)
+
+<use Images/BruteVsQuadCPU_logscale_new_2.png>
+Package pdftex.def Info: Images/BruteVsQuadCPU_logscale_new_2.png used on input
+ line 355.
+(pdftex.def)             Requested size: 317.98898pt x 238.49173pt.
+ [18 <./Images/BruteVsQuadCPU_logscale_new_2.png>]
+<Images/CPU_GPU_brute_new_2.png, id=110, 578.16pt x 433.62pt>
+File: Images/CPU_GPU_brute_new_2.png Graphic file (type png)
+
+<use Images/CPU_GPU_brute_new_2.png>
+Package pdftex.def Info: Images/CPU_GPU_brute_new_2.png used on input line 375.
+
+(pdftex.def)             Requested size: 317.98898pt x 238.49173pt.
+
+<Images/Different_Sized_Polygon_logScale_cpu04_10.png, id=111, 578.16pt x 433.6
+2pt>
+File: Images/Different_Sized_Polygon_logScale_cpu04_10.png Graphic file (type p
+ng)
+ <use Images/Different_Sized_Polygon_logScale_cpu04_10.png>
+Package pdftex.def Info: Images/Different_Sized_Polygon_logScale_cpu04_10.png u
+sed on input line 387.
+(pdftex.def)             Requested size: 317.98898pt x 238.49173pt.
+ [19 <./Images/CPU_GPU_brute_new_2.png>]) [20 <./Images/Different_Sized_Polygon
+_logScale_cpu04_10.png>] (./approach.tex [21
+
+]
+<Images/OverlapScenario4.png, id=125, 365.365pt x 138.5175pt>
+File: Images/OverlapScenario4.png Graphic file (type png)
+
+<use Images/OverlapScenario4.png>
+Package pdftex.def Info: Images/OverlapScenario4.png used on input line 48.
+(pdftex.def)             Requested size: 292.29239pt x 110.81413pt.
+ [22]
+<Images/OverlapScenario5.png, id=130, 410.53375pt x 90.3375pt>
+File: Images/OverlapScenario5.png Graphic file (type png)
+
+<use Images/OverlapScenario5.png>
+Package pdftex.def Info: Images/OverlapScenario5.png used on input line 57.
+(pdftex.def)             Requested size: 328.42744pt x 72.27008pt.
+ [23 <./Images/OverlapScenario4.png> <./Images/OverlapScenario5.png>] [24] [25]
+ [26] [27] [28]
+<Images/BFSgpu.png, id=152, 713.66624pt x 318.18875pt>
+File: Images/BFSgpu.png Graphic file (type png)
+ <use Images/BFSgpu.png>
+Package pdftex.def Info: Images/BFSgpu.png used on input line 128.
+(pdftex.def)             Requested size: 356.83224pt x 159.09398pt.
+
+[29] [30 <./Images/BFSgpu.png>]
+<Images/FlowChart.png, id=160, 1133.23375pt x 1079.03125pt>
+File: Images/FlowChart.png Graphic file (type png)
+
+<use Images/FlowChart.png>
+Package pdftex.def Info: Images/FlowChart.png used on input line 148.
+(pdftex.def)             Requested size: 396.63776pt x 377.6666pt.
+ [31] [32 <./Images/FlowChart.png>]
+<Images/Quadtree_basic_scenario6.png, id=167, 360.34625pt x 204.765pt>
+File: Images/Quadtree_basic_scenario6.png Graphic file (type png)
+
+<use Images/Quadtree_basic_scenario6.png>
+Package pdftex.def Info: Images/Quadtree_basic_scenario6.png used on input line
+ 168.
+(pdftex.def)             Requested size: 151.76964pt x 86.24129pt.
+
+<Images/R1.png, id=168, 287.0725pt x 72.27pt>
+File: Images/R1.png Graphic file (type png)
+ <use Images/R1.png>
+Package pdftex.def Info: Images/R1.png used on input line 172.
+(pdftex.def)             Requested size: 173.44534pt x 43.66557pt.
+
+<Images/Quadtree_basic_scenario7.png, id=169, 364.36125pt x 205.76875pt>
+File: Images/Quadtree_basic_scenario7.png Graphic file (type png)
+
+<use Images/Quadtree_basic_scenario7.png>
+Package pdftex.def Info: Images/Quadtree_basic_scenario7.png used on input line
+ 183.
+(pdftex.def)             Requested size: 151.76964pt x 85.70955pt.
+
+<Images/L2_Tree.png, id=170, 831.105pt x 211.79124pt>
+File: Images/L2_Tree.png Graphic file (type png)
+ <use Images/L2_Tree.png>
+Package pdftex.def Info: Images/L2_Tree.png used on input line 187.
+(pdftex.def)             Requested size: 260.17464pt x 66.30093pt.
+
+<Images/Quadtree_basic_scenario8.png, id=171, 364.36125pt x 200.75pt>
+File: Images/Quadtree_basic_scenario8.png Graphic file (type png)
+
+<use Images/Quadtree_basic_scenario8.png>
+Package pdftex.def Info: Images/Quadtree_basic_scenario8.png used on input line
+ 198.
+(pdftex.def)             Requested size: 151.76964pt x 83.61906pt.
+
+<Images/L3_Tree.png, id=172, 913.4125pt x 360.34625pt>
+File: Images/L3_Tree.png Graphic file (type png)
+
+<use Images/L3_Tree.png>
+Package pdftex.def Info: Images/L3_Tree.png used on input line 202.
+(pdftex.def)             Requested size: 260.17464pt x 102.63925pt.
+ [33 <./Images/Quadtree_basic_scenario6.png> <./Images/R1.png> <./Images/Quadtr
+ee_basic_scenario7.png> <./Images/L2_Tree.png>]
+<Images/Quadtree_basic_scenario9.png, id=178, 365.365pt x 200.75pt>
+File: Images/Quadtree_basic_scenario9.png Graphic file (type png)
+
+<use Images/Quadtree_basic_scenario9.png>
+Package pdftex.def Info: Images/Quadtree_basic_scenario9.png used on input line
+ 213.
+(pdftex.def)             Requested size: 151.76964pt x 83.38933pt.
+
+<Images/L4_Tree.png, id=179, 909.3975pt x 478.78876pt>
+File: Images/L4_Tree.png Graphic file (type png)
+
+<use Images/L4_Tree.png>
+Package pdftex.def Info: Images/L4_Tree.png used on input line 217.
+(pdftex.def)             Requested size: 260.17464pt x 136.98222pt.
+ [34 <./Images/Quadtree_basic_scenario8.png> <./Images/L3_Tree.png> <./Images/Q
+uadtree_basic_scenario9.png> <./Images/L4_Tree.png>]
+<Images/1_1Quad1_1.png, id=186, 366.36874pt x 203.76125pt>
+File: Images/1_1Quad1_1.png Graphic file (type png)
+
+<use Images/1_1Quad1_1.png>
+Package pdftex.def Info: Images/1_1Quad1_1.png used on input line 233.
+(pdftex.def)             Requested size: 151.76964pt x 84.4101pt.
+
+<Images/1_1Quad_1_tree.png, id=187, 383.4325pt x 54.2025pt>
+File: Images/1_1Quad_1_tree.png Graphic file (type png)
+
+<use Images/1_1Quad_1_tree.png>
+Package pdftex.def Info: Images/1_1Quad_1_tree.png used on input line 237.
+(pdftex.def)             Requested size: 216.81pt x 30.64928pt.
+
+<Images/1_1Quad1_2.png, id=188, 361.35pt x 201.75375pt>
+File: Images/1_1Quad1_2.png Graphic file (type png)
+
+<use Images/1_1Quad1_2.png>
+Package pdftex.def Info: Images/1_1Quad1_2.png used on input line 251.
+(pdftex.def)             Requested size: 151.76964pt x 84.73906pt.
+
+<Images/1Quad_2_tree.png, id=189, 468.75125pt x 197.73875pt>
+File: Images/1Quad_2_tree.png Graphic file (type png)
+
+<use Images/1Quad_2_tree.png>
+Package pdftex.def Info: Images/1Quad_2_tree.png used on input line 255.
+(pdftex.def)             Requested size: 216.81pt x 91.45877pt.
+ [35
+
+ <./Images/1_1Quad1_1.png> <./Images/1_1Quad_1_tree.png> <./Images/1_1Quad1_2.p
+ng> <./Images/1Quad_2_tree.png>]
+<Images/1_1Quad1_3.png, id=196, 372.39125pt x 205.76875pt>
+File: Images/1_1Quad1_3.png Graphic file (type png)
+
+<use Images/1_1Quad1_3.png>
+Package pdftex.def Info: Images/1_1Quad1_3.png used on input line 268.
+(pdftex.def)             Requested size: 151.76964pt x 83.86336pt.
+
+<Images/1Quad_3_tree.png, id=197, 472.76625pt x 315.1775pt>
+File: Images/1Quad_3_tree.png Graphic file (type png)
+
+<use Images/1Quad_3_tree.png>
+Package pdftex.def Info: Images/1Quad_3_tree.png used on input line 272.
+(pdftex.def)             Requested size: 216.81pt x 144.54095pt.
+
+<Images/1_1Quad1_4.png, id=198, 367.3725pt x 200.75pt>
+File: Images/1_1Quad1_4.png Graphic file (type png)
+
+<use Images/1_1Quad1_4.png>
+Package pdftex.def Info: Images/1_1Quad1_4.png used on input line 287.
+(pdftex.def)             Requested size: 151.76964pt x 82.93597pt.
+
+<Images/1Quad_4_tree.png, id=199, 465.74pt x 437.635pt>
+File: Images/1Quad_4_tree.png Graphic file (type png)
+
+<use Images/1Quad_4_tree.png>
+Package pdftex.def Info: Images/1Quad_4_tree.png used on input line 291.
+(pdftex.def)             Requested size: 216.81pt x 203.7252pt.
+ [36 <./Images/1_1Quad1_3.png> <./Images/1Quad_3_tree.png>] <Images/2Quad_1.png
+, id=204, 360.34625pt x 205.76875pt>
+File: Images/2Quad_1.png Graphic file (type png)
+
+<use Images/2Quad_1.png>
+Package pdftex.def Info: Images/2Quad_1.png used on input line 306.
+(pdftex.def)             Requested size: 151.76964pt x 86.66403pt.
+File: Images/1_1Quad_1_tree.png Graphic file (type png)
+ <use Images/1_1Quad_1_tree.png>
+Package pdftex.def Info: Images/1_1Quad_1_tree.png used on input line 310.
+(pdftex.def)             Requested size: 260.17464pt x 36.78029pt.
+
+<Images/2Quad_2.png, id=205, 362.35374pt x 207.77625pt>
+File: Images/2Quad_2.png Graphic file (type png)
+
+<use Images/2Quad_2.png>
+Package pdftex.def Info: Images/2Quad_2.png used on input line 324.
+(pdftex.def)             Requested size: 151.76964pt x 87.02763pt.
+
+<Images/2Quad_2_tree.png, id=206, 641.39626pt x 204.765pt>
+File: Images/2Quad_2_tree.png Graphic file (type png)
+
+<use Images/2Quad_2_tree.png>
+Package pdftex.def Info: Images/2Quad_2_tree.png used on input line 328.
+(pdftex.def)             Requested size: 260.17464pt x 83.06058pt.
+ [37 <./Images/1_1Quad1_4.png> <./Images/1Quad_4_tree.png> <./Images/2Quad_1.pn
+g>]
+<Images/2Quad_3.png, id=212, 366.36874pt x 205.76875pt>
+File: Images/2Quad_3.png Graphic file (type png)
+
+<use Images/2Quad_3.png>
+Package pdftex.def Info: Images/2Quad_3.png used on input line 342.
+(pdftex.def)             Requested size: 151.76964pt x 85.24171pt.
+
+<Images/2Quad_3_tree.png, id=213, 787.94376pt x 352.31625pt>
+File: Images/2Quad_3_tree.png Graphic file (type png)
+
+<use Images/2Quad_3_tree.png>
+Package pdftex.def Info: Images/2Quad_3_tree.png used on input line 346.
+(pdftex.def)             Requested size: 260.17464pt x 116.32922pt.
+ [38 <./Images/2Quad_2.png> <./Images/2Quad_2_tree.png> <./Images/2Quad_3.png> 
+<./Images/2Quad_3_tree.png>]
+<Images/2Quad_4.png, id=219, 366.36874pt x 205.76875pt>
+File: Images/2Quad_4.png Graphic file (type png)
+
+<use Images/2Quad_4.png>
+Package pdftex.def Info: Images/2Quad_4.png used on input line 360.
+(pdftex.def)             Requested size: 151.76964pt x 85.24171pt.
+
+<Images/2Quad_4_tree.png, id=220, 763.85374pt x 485.815pt>
+File: Images/2Quad_4_tree.png Graphic file (type png)
+
+<use Images/2Quad_4_tree.png>
+Package pdftex.def Info: Images/2Quad_4_tree.png used on input line 364.
+(pdftex.def)             Requested size: 260.17464pt x 165.47142pt.
+
+<Images/4Quad1_1.png, id=221, 361.35pt x 206.7725pt>
+File: Images/4Quad1_1.png Graphic file (type png)
+ <use Images/4Quad1_1.png>
+Package pdftex.def Info: Images/4Quad1_1.png used on input line 379.
+(pdftex.def)             Requested size: 151.76964pt x 86.847pt.
+File: Images/1_1Quad_1_tree.png Graphic file (type png)
+
+<use Images/1_1Quad_1_tree.png>
+Package pdftex.def Info: Images/1_1Quad_1_tree.png used on input line 383.
+(pdftex.def)             Requested size: 260.17464pt x 36.78029pt.
+ [39 <./Images/2Quad_4.png> <./Images/2Quad_4_tree.png>] <Images/4Quad1_2.png, 
+id=226, 365.365pt x 205.76875pt>
+File: Images/4Quad1_2.png Graphic file (type png)
+
+<use Images/4Quad1_2.png>
+Package pdftex.def Info: Images/4Quad1_2.png used on input line 397.
+(pdftex.def)             Requested size: 151.76964pt x 85.47406pt.
+
+<Images/1_1Quad_2_tree.png, id=227, 831.105pt x 211.79124pt>
+File: Images/1_1Quad_2_tree.png Graphic file (type png)
+
+<use Images/1_1Quad_2_tree.png>
+Package pdftex.def Info: Images/1_1Quad_2_tree.png used on input line 401.
+(pdftex.def)             Requested size: 260.17464pt x 66.30093pt.
+
+<Images/4Quad1_3.png, id=228, 363.3575pt x 205.76875pt>
+File: Images/4Quad1_3.png Graphic file (type png)
+
+<use Images/4Quad1_3.png>
+Package pdftex.def Info: Images/4Quad1_3.png used on input line 414.
+(pdftex.def)             Requested size: 151.76964pt x 85.94817pt.
+
+<Images/1_1Quad_3_tree.png, id=229, 913.4125pt x 360.34625pt>
+File: Images/1_1Quad_3_tree.png Graphic file (type png)
+
+<use Images/1_1Quad_3_tree.png>
+Package pdftex.def Info: Images/1_1Quad_3_tree.png used on input line 418.
+(pdftex.def)             Requested size: 260.17464pt x 102.63925pt.
+ [40 <./Images/4Quad1_1.png> <./Images/4Quad1_2.png> <./Images/1_1Quad_2_tree.p
+ng>]
+<Images/4Quad1_4.png, id=236, 367.3725pt x 205.76875pt>
+File: Images/4Quad1_4.png Graphic file (type png)
+
+<use Images/4Quad1_4.png>
+Package pdftex.def Info: Images/4Quad1_4.png used on input line 432.
+(pdftex.def)             Requested size: 151.76964pt x 85.00937pt.
+
+<Images/1_1Quad_4_tree.png, id=237, 909.3975pt x 478.78876pt>
+File: Images/1_1Quad_4_tree.png Graphic file (type png)
+
+<use Images/1_1Quad_4_tree.png>
+Package pdftex.def Info: Images/1_1Quad_4_tree.png used on input line 436.
+(pdftex.def)             Requested size: 260.17464pt x 136.98222pt.
+ [41 <./Images/4Quad1_3.png> <./Images/1_1Quad_3_tree.png> <./Images/4Quad1_4.p
+ng> <./Images/1_1Quad_4_tree.png>]
+<Images/Stack1.png, id=244, 731.73375pt x 518.93875pt>
+File: Images/Stack1.png Graphic file (type png)
+ <use Images/Stack1.png>
+Package pdftex.def Info: Images/Stack1.png used on input line 449.
+(pdftex.def)             Requested size: 292.68831pt x 207.57182pt.
+
+<Images/NoPointQuad1.png, id=245, 520.94624pt x 298.11375pt>
+File: Images/NoPointQuad1.png Graphic file (type png)
+
+<use Images/NoPointQuad1.png>
+Package pdftex.def Info: Images/NoPointQuad1.png used on input line 463.
+(pdftex.def)             Requested size: 151.76964pt x 86.85106pt.
+File: Images/1_1Quad_1_tree.png Graphic file (type png)
+ <use Images/1_1Quad_1_tree.png>
+Package pdftex.def Info: Images/1_1Quad_1_tree.png used on input line 467.
+(pdftex.def)             Requested size: 260.17464pt x 36.78029pt.
+ [42 <./Images/Stack1.png> <./Images/NoPointQuad1.png>]
+<Images/NoPointQuad2.png, id=250, 523.9575pt x 299.1175pt>
+File: Images/NoPointQuad2.png Graphic file (type png)
+
+<use Images/NoPointQuad2.png>
+Package pdftex.def Info: Images/NoPointQuad2.png used on input line 481.
+(pdftex.def)             Requested size: 151.76964pt x 86.64143pt.
+
+<Images/NoPoints3_1.png, id=251, 687.56876pt x 222.8325pt>
+File: Images/NoPoints3_1.png Graphic file (type png)
+
+<use Images/NoPoints3_1.png>
+Package pdftex.def Info: Images/NoPoints3_1.png used on input line 485.
+(pdftex.def)             Requested size: 260.17464pt x 84.3168pt.
+) [43 <./Images/NoPointQuad2.png> <./Images/NoPoints3_1.png>] (./exper.tex
+<Images/CPU_GPU_SmallPoly3.png, id=257, 578.16pt x 433.62pt>
+File: Images/CPU_GPU_SmallPoly3.png Graphic file (type png)
+
+<use Images/CPU_GPU_SmallPoly3.png>
+Package pdftex.def Info: Images/CPU_GPU_SmallPoly3.png used on input line 22.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+ [44
+
+]
+<Images/CPU_GPU_MediumPoly3.png, id=261, 578.16pt x 433.62pt>
+File: Images/CPU_GPU_MediumPoly3.png Graphic file (type png)
+
+<use Images/CPU_GPU_MediumPoly3.png>
+Package pdftex.def Info: Images/CPU_GPU_MediumPoly3.png used on input line 31.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+<Images/CPU_GPU_LargePoly3.png, id=262, 578.16pt x 433.62pt>
+File: Images/CPU_GPU_LargePoly3.png Graphic file (type png)
+
+<use Images/CPU_GPU_LargePoly3.png>
+Package pdftex.def Info: Images/CPU_GPU_LargePoly3.png used on input line 40.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+ [45 <./Images/CPU_GPU_SmallPoly3.png> <./Images/CPU_GPU_MediumPoly3.png>] [46 
+<./Images/CPU_GPU_LargePoly3.png>]
+<Images/Different_Sized_Polygon_GPU4.png, id=273, 578.16pt x 433.62pt>
+File: Images/Different_Sized_Polygon_GPU4.png Graphic file (type png)
+
+<use Images/Different_Sized_Polygon_GPU4.png>
+Package pdftex.def Info: Images/Different_Sized_Polygon_GPU4.png used on input 
+line 56.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+<Images/LToMCmplxMedP.png, id=274, 578.16pt x 433.62pt>
+File: Images/LToMCmplxMedP.png Graphic file (type png)
+
+<use Images/LToMCmplxMedP.png>
+Package pdftex.def Info: Images/LToMCmplxMedP.png used on input line 69.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+ [47 <./Images/Different_Sized_Polygon_GPU4.png>] [48 <./Images/LToMCmplxMedP.p
+ng>]
+<Images/SpeedUp.png, id=283, 578.16pt x 433.62pt>
+File: Images/SpeedUp.png Graphic file (type png)
+ <use Images/SpeedUp.png>
+Package pdftex.def Info: Images/SpeedUp.png used on input line 82.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+)
+[49 <./Images/SpeedUp.png>] (./conclusion.tex) (./thesis.bbl [50
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 47--50
+[]\OT1/cmr/m/n/12 Maria Kelly and Alexan-der Bres-low.  Quadtree con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--50
+\OT1/cmr/m/n/12 struc-tion on the gpu: A hy-brid cpu-gpu ap-proach.
+ []
+
+
+Overfull \hbox (61.53856pt too wide) in paragraph at lines 64--68
+[]\OT1/cmr/m/n/12 NVIDIA.  White pa-per ke-plertm gk110. https://www.nvidia.com
+/content/pdf/kepler/nvidia-
+ []
+
+[51
+
+]) [52] (./thesis_appendix1.tex (./bruteforce.c [53
+
+
+] [54] [55] [56] [57]
+[58] [59] [60] [61])) [62] (./thesis_appendix2.tex (./MemoryManager.h [63
+
+]
+[64] [65] [66] [67] [68] [69] [70] [71])) [72] (./thesis_appendix3.tex
+(./cdpQuadtree.cu [73
+
+] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83]
+[84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98]
+[99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111]
+[112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123]
+[124] [125] [126]) [127]) [128] (./thesis.aux) ) 
+Here is how much of TeX's memory you used:
+ 8410 strings out of 493089
+ 123947 string characters out of 6134842
+ 260546 words of memory out of 5000000
+ 11613 multiletter control sequences out of 15000+600000
+ 11166 words of font info for 45 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 56i,12n,92p,1011b,1678s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
+1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/
+type1/urw/zapfding/uzdr.pfb>
+Output written on thesis.pdf (137 pages, 5182390 bytes).
+PDF statistics:
+ 581 PDF objects out of 1000 (max. 8388607)
+ 337 compressed objects within 4 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 286 words of extra memory for PDF output out of 10000 (max. 10000000)
+

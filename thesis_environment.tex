@@ -1,0 +1,72 @@
+%
+% File thesis_environment.tex
+%
+% Description:
+% This file contains environments for theorems, lemmas, definitions,
+% proofs, corollaries, algorithms, examples, remarks, and assumptions.
+% The numbering is set up so that the same counter is used for ALL
+% these environments.  This seems to make it easier for readers to
+% find referenced material.  The counter is reset for each chapter.
+%
+% EXAMPLE
+%    Definition 3.1
+%    Lemma 3.2
+%    Example 3.3
+%    Theorem 3.4
+%    Theorem 3.5
+%    Lemma 3.6 ....
+%
+%    Lemma 4.1
+%    Corollary 4.2 ....
+%
+% The Definition environment is indented on both sides.  This
+% is not required, but seemed to be a nice way to separate definitions
+% from proven results.
+%
+\usepackage{graphicx}
+\usepackage{floatrow}
+
+
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=C,
+  %aboveskip=3mm,
+  %belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheorem{thm}{Theorem}[chapter]
+\newtheorem{lemma}[thm]{Lemma}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{defin}[thm]{Definition}
+\newtheorem{obser}[thm]{Observation}
+\newtheorem{remark}[thm]{Remark}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{definition}{\begin{description}\begin{defin}}
+{\end{defin}\end{description}\medskip}
+\newenvironment{proof}{{\bf Proof:} }{\hfill\rule{2.1mm}{2.1mm}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newfloatcommand{capbtabbox}{table}[][\FBwidth]
+\floatsetup[table]{capposition=top}
+
+
+\newcounter{example}
+\newenvironment{example}{\refstepcounter{example}
+         \medskip\par\noindent\textbf{Example \theexample.} } {\medskip}

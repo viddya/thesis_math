@@ -1,0 +1,36 @@
+%
+% File - thesis_abstract.tex
+%
+%
+% Description:
+% Write your abstract in this file.
+%
+%
+%
+The point-in-polygon (PIP) problem defines for a given set of points
+in a plane whether those points are inside, outside or on the
+boundary of a polygon. The PIP for a plane is a special case of point
+range finding that has applications in numerous areas that deal with
+processing geometrical data, such as computer graphics, computer
+vision, geographical information systems (GIS), motion planning and
+CAD. Point in range search can be performed by a brute force search
+method, however solution becomes increasingly prohibitive when
+scaling the input to a large number of data points and distinct
+ranges (polygons). The core issue of the brute force approach is that
+each data point must be compared to the boundary range requiring
+both computation and memory access.  By using a spatial data structure
+such as a quadtree, the number of data points computationally compared
+within a specific polygon range can be reduced to be more efficient in
+terms of performance on the CPU.  While Graphics Processing Unit (GPU) 
+systems have the potential to advance the computational requirements
+of a number of problems, their massive number of processing cores
+execute efficiently only in certain rigid execution models such as
+data-level parallel problems. The goal of this thesis is to demonstrate
+that the GPU systems can still process irregular data structure such
+as a quadtree and that it can be efficiently traversed on a GPU to find the points
+inside a polygon. Compared with an optimized serial CPU implementation
+based on the recursive Depth-First Search (DFS), the stack based
+iterative Breadth-first search (BFS) on the GPU has a performance gain
+of 3x to 500x.
+\newpage
+

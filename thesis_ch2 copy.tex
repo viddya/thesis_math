@@ -1,0 +1,81 @@
+%
+% File - ch2.tex
+%
+%
+% Description:
+% This file should contain the second real chapter or section of your
+% thesis.
+%
+%
+To understand how {\it AMG} performs on this problem, we first
+examine the coarsening statistics in Table \ref{table:t3}. One
+interesting phenomenon is that the relative density of the
+operators (percentage of non-zeros) increases as the grids become
+coarser. This increasing density can be seen in the last column,
+where the average number of entries per row increases through
+several coarse levels. Fortunately, the operator complexity is not
+adversely affected: a short calculation shows that the operator
+complexity is 2.97, while the grid complexity is 1.89. It is also
+interesting to note that the first coarse-grid operator has more
+actual nonzero coefficients than does the fine-grid operator. This
+is relatively common for {\it AMG} on unstructured grids.
+
+\medskip
+\begin{table}
+\begin{center}
+\begin{tabular}{crrcc}\hline
+       & Number  & Number of & Density  & Average entries \\
+Level  & of Rows & nonzeros  & (\% full) & per row          \\
+\hline
+ 0  &  4192  &  28832 & 0.002 & 6.9 \\
+ 1  &  2237  &  29617 & 0.006 & 13.2 \\
+ 2  &   867  &  14953 & 0.020 & 17.2 \\
+ 3  &   369  &   7345 & 0.054 & 19.9 \\
+ 4  &   152  &   3144 & 0.136 & 20.7 \\
+ 5  &    69  &   1129 & 0.237 & 16.4 \\
+ 6  &    30  &    322 & 0.358 & 10.7 \\
+ 7  &    20  &    156 & 0.390 &  7.8 \\
+ 8  &    18  &    125 & 0.383 &  6.9 \\
+ 9  &     3  &      9 & 1.000 &  3   \\\hline
+\end{tabular}
+\end{center}
+\caption{\label{table:t3}{\em Statistics on coarsening for AMG
+applied to frozen asphalt.}}
+\end{table}
+
+The convergence of the method is summarized in Table
+\ref{table:t4}. Using the standard 2-norm, we see that after 11
+V-cycles, the residual norm reached $10^{-7}$ and the process
+attained an asymptotic convergence factor of 0.31 per $V$-cycle.
+Clearly, {\it AMG} does not converge as rapidly for this problem
+as for the previous model problem, where we saw a convergence
+factor of about 0.1. Nevertheless, in light of the unstructured
+grid and the strong, non-aligned jump discontinuities in the
+coefficients, the convergence properties are quite acceptable.
+
+
+\medskip
+\begin{table}
+\begin{center}
+\begin{tabular}{ccc}\hline
+          &                & Ratio of    \\
+V-cycle &  $||{\bf r}||_2$ & $||{\bf r}||_2$\\\hline
+   0 &  1.00e+00 &    --  \\
+   1 &  4.84e-02 &   0.05 \\
+   2 &  7.59e-03 &   0.16 \\
+   3 &  1.72e-03 &   0.23 \\
+   4 &  4.60e-04 &   0.27 \\
+   5 &  1.32e-04 &   0.29 \\
+   6 &  3.95e-05 &   0.30 \\
+   7 &  1.19e-05 &   0.30 \\
+   8 &  3.66e-06 &   0.31 \\
+   9 &  1.12e-06 &   0.31 \\
+  10 &  3.43e-07 &   0.31 \\
+  11 &  1.05e-07 &   0.31 \\
+  12 &  3.22e-08 &   0.31 \\\hline
+\end{tabular}
+\end{center}
+\caption{\label{table:t4}{\em Convergence of AMG $V$-cycles
+applied to popcorn in terms of the 2-norm (Euclidean norm) of the
+residual.}}
+\end{table}

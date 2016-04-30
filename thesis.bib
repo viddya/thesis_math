@@ -1,0 +1,893 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@proceedings{venkata:09:sdvbs,
+    abstract = {{In the era of multi-core, computer vision has emerged as an exciting application area which promises to continue to drive the demand for both more powerful and more energy efficient processors. Although there is still a long way to go, vision has matured significantly over the last few decades, and the list of applications that are useful to end users continues to grow. The parallelism inherent in vision applications makes them a promising workload for multi-core and many-core processors. While the vision community has focused many years on improving the accuracy of vision algorithms, a major barrier to the study of their computational properties has been the lack of a benchmark suite that simultaneously spans a wide portion of the vision space and is accessible in a portable form that the architecture community can easily use. We present the San Diego Vision Benchmark Suite (SD-VBS), a suite of diverse vision applications drawn from the vision domain. The applications are drawn from the current state-of-the-art in computer vision, in consultation with vision researchers. Each benchmark is provided in both MATLAB and C form. MATLAB is the preferred language of vision researchers, while C makes it easier to map the applications to research platforms. The C code minimizes pointer usage and employs clean constructs to make them easier for parallelization. Furthermore, we provide a spectrum of input sets that enable researchers to control simulation time, and to understand properties as inputs increase to leverage better processor performance. In this paper, we describe the benchmarks, show how their runtime is attributed to their constituent kernels, overview some of their computational properties - including parallelism - and show how they are affected by growing inputs. The benchmark suite will be made available on the Internet, and updated as new applications emerge.}},
+    author = {Venkata, S. K. and Ahn, I. and Jeon, Donghwan and Gupta, A. and Louie, C. and Garcia, S. and Belongie, S. and Taylor, M. B.},
+    citeulike-article-id = {6496837},
+    citeulike-linkout-0 = {http://dx.doi.org/10.1109/IISWC.2009.5306794},
+    citeulike-linkout-1 = {http://ieeexplore.ieee.org/xpls/abs\_all.jsp?arnumber=5306794},
+    day = {6},
+    doi = {10.1109/IISWC.2009.5306794},
+    journal = {Workload Characterization, 2009. IISWC 2009. IEEE International Symposium on},
+    keywords = {benchmarks, vision},
+    month = {October},
+    pages = {55--64},
+    posted-at = {2010-01-07 00:53:55},
+    priority = {2},
+    title = {SD-VBS: The San Diego Vision Benchmark Suite},
+    url = {http://dx.doi.org/10.1109/IISWC.2009.5306794},
+    year = {2009}
+}
+
+
+@article{CUDA,
+author = "",
+title = "CUDA - Compute Uniform Device Architecture",
+journal = "NVIDIA Program CUDA Guide http://www.nvidia.com/cuda/",
+pages = "",
+month = "",
+year = ""}
+
+@article{OpenCL,
+author = "",
+title = "",
+journal = "Khronos Group. OpenCL: The open standard for parallel programming of heterogeneous systems. On the web. http://www.khronos.org/opencl/",
+pages = "",
+month = "",
+year = ""}
+
+@article{divergence,
+author = "Tianyi David Han and Tarek S. Abdelrahman",
+title = "Reducing Branch Divergence in GPU programs",
+journal = "Proceedings of the Fourth Workshop on General Purpose Processing on Graphics Processing Units (GPGPU-4)",
+pages = "",
+month = "",
+year = "2012"}
+
+
+@article{memory,
+author = "Bo Wu and Zhijia Zhao and Eddy Z. Zhang and Yunlian Jiang and Xipeng Shen",
+title = "Complexity Analysis and Algorithm Design for Reorganizing Data to Minimize Non-Coalesced Memory Accesses on GPU",
+journal = "18th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming",
+year = "2013"}
+
+@inproceedings{divergence1,
+ author = {Han, Tianyi David and Abdelrahman, Tarek S.},
+ title = {Reducing branch divergence in GPU programs},
+ booktitle = {Proceedings of the Fourth Workshop on General Purpose Processing on Graphics Processing Units},
+ series = {GPGPU-4},
+ year = {2011},
+ isbn = {978-1-4503-0569-3},
+ location = {Newport Beach, California},
+ pages = {3:1--3:8},
+ articleno = {3},
+ numpages = {8},
+ acmid = {1964184},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {GPGPU, branch divergence, data parallel programming},
+}
+
+@article{divergence2,
+ author = {Meng, Jiayuan and Tarjan, David and Skadron, Kevin},
+ title = {Dynamic warp subdivision for integrated branch and memory divergence tolerance},
+ journal = {SIGARCH Comput. Archit. News},
+ issue_date = {June 2010},
+ volume = {38},
+ number = {3},
+ month = jun,
+ year = {2010},
+ issn = {0163-5964},
+ pages = {235--246},
+ numpages = {12},
+ doi = {10.1145/1816038.1815992},
+ acmid = {1815992},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {branch divergence, cache, latency hiding, memory divergence, simd, warp},
+}
+
+@article{local,
+        author          = {Gou, C.; Gaydadjiev, Georgi},
+        title           = {Addressing GPU on-chip shared memory bank conflicts using elastic pipeline},
+        journal         = {International Journal of Parallel Programming},
+        year            = {2013},
+        volume          = {41},
+        number          = {3},
+        issn            = {0885-7458},
+        group           = {PDS}
+}
+
+@inproceedings{Gupta:2012:ASO,
+title   =       "A Study of Persistent Threads Style GPU Programming for GPGPU Workloads ",
+booktitle       =       "Innovative Parallel Computing",
+author  =       "Kshitij Gupta AND Jeff A. Stuart AND John D. Owens ",
+year    =       "2012",
+month   =       may,
+keywords        =       "GPGPU, GPU Computing, GPU Programming Style, Persistent Threads",
+pages   =       "14",
+location        =       "San Jose, CA",
+abstract        =       "In this paper, we characterize and analyze an increasingly popular style of programming for the GPU called Persistent Threads (PT). We present a concise formal definition for this programming style, and discuss the difference between the traditional GPU programming style (nonPT) and PT, why PT is attractive for some high-performance usage scenarios, and when using PT may or may not be appropriate. We identify limitations of the nonPT style and identify four primary use cases it could be useful in addressing— CPU-GPU synchronization, load balancing/irregular parallelism, producer-consumer locality, and global synchronization. Through micro-kernel benchmarks we show the PT approach can achieve up to an order-of-magnitude speedup over nonPT kernels, but can also result in performance loss in many cases. We conclude by discussing the hardware and software fundamentals that will influence the development of Persistent Threads as a programming style in future systems.",
+}
+
+@inproceedings{liu13ics,
+ author = {Liu, Chenyang and Jamal, Muhammad Hasan and Kulkarni, Milind and Prakash, Arun and Pai, Vijay},
+ title = {Exploiting domain knowledge to optimize parallel computational mechanics codes},
+ booktitle = {Proceedings of the 27th international ACM conference on International conference on supercomputing},
+ series = {ICS '13},
+ year = {2013},
+ isbn = {978-1-4503-2130-3},
+ location = {Eugene, Oregon, USA},
+ pages = {25--36},
+ numpages = {12},
+ url = {http://doi.acm.org/10.1145/2464996.2464998},
+ doi = {10.1145/2464996.2464998},
+ acmid = {2464998},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {domain-specific optimization, multi-scale method, recursive decomposition},
+}
+
+
+
+
+@inproceedings{gpusift,
+  author = {Seth Warn and Wesley Emeneker and Jackson Cothren and Amy W. Apon},
+  booktitle = {CLUSTER},
+  crossref = {conf/cluster/2009},
+  interhash = {cf485c794c651f056c9658dd8050b9e9},
+  intrahash = {c93a0d040481656f41fcf53e4cc7b23a},
+  pages = {1-4},
+  publisher = {IEEE},
+  title = {Accelerating SIFT on parallel architectures.},
+  url = {http://dblp.uni-trier.de/db/conf/cluster/cluster2009.html#WarnECA09},
+  year = 2009,
+  keywords = {dblp},
+  ee = {http://dx.doi.org/10.1109/CLUSTR.2009.5289155},
+  added-at = {2010-03-08T00:00:00.000+0100},
+  description = {dblp},
+  isbn = {978-1-4244-5012-1},
+  biburl = {http://www.bibsonomy.org/bibtex/2c93a0d040481656f41fcf53e4cc7b23a/dblp},
+  date = {2010-03-08}
+}
+
+@article{luk:05:pldi,
+ author = {Luk, Chi-Keung and Cohn, Robert and Muth, Robert and Patil, Harish and Klauser, Artur and Lowney, Geoff and Wallace, Steven and Reddi, Vijay Janapa and Hazelwood, Kim},
+ title = {Pin: building customized program analysis tools with dynamic instrumentation},
+ journal = {SIGPLAN Not.},
+ volume = {40},
+ issue = {6},
+ month = {June},
+ year = {2005},
+ issn = {0362-1340},
+ pages = {190--200},
+ numpages = {11},
+ url = {http://doi.acm.org/10.1145/1064978.1065034},
+ doi = {http://doi.acm.org/10.1145/1064978.1065034},
+ acmid = {1065034},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {dynamic compilation, instrumentation, program analysis tools},
+} 
+
+@book{pharr:05:gpugems2,
+    abstract = {{\&\#8220;GPU Gems 2 isn't meant to simply adorn your bookshelf-it's required reading for anyone trying to keep pace with the rapid evolution of programmable graphics. If you're serious about graphics, this book will take you to the edge of what the GPU can do.\&\#8221; -Remi Arnaud, Graphics Architect at Sony Computer Entertainment \&\#8220;The topics covered in GPU Gems 2 are critical to the next generation of game engines.\&\#8221; -Gary McTaggart, Software Engineer at Valve, Creators of Half-Life and Counter-Strike This sequel to the best-selling, first volume of GPU Gems details the latest programming techniques for today's graphics processing units (GPUs). As GPUs find their way into mobile phones, handheld gaming devices, and consoles, GPU expertise is even more critical in today's competitive environment. Real-time graphics programmers will discover the latest algorithms for creating advanced visual effects, strategies for managing complex scenes, and advanced image processing techniques. Readers will also learn new methods for using the substantial processing power of the GPU in other computationally intensive applications, such as scientific computing and finance. Twenty of the book's forty-eight chapters are devoted to GPGPU programming, from basic concepts to advanced techniques. Written by experts in cutting-edge GPU programming, this book offers readers practical means to harness the enormous capabilities of GPUs.Major topics covered include: Geometric Complexity Shading, Lighting, and Shadows High-Quality Rendering General-Purpose Computation on GPUs: A Primer Image-Oriented Computing Simulation and Numerical Algorithms Contributors are from the following corporations and universities:1C: Maddox Games 2015 Apple Computer Armstrong State University Climax Entertainment Crytek discreet ETH Zurich GRAVIR/IMAG-INRIA GSC Game World Lionhead Studios Lund University Massachusetts Institute of Technology mental images Microsoft Research NVIDIA Corporation Piranha Bytes Siemens Corporate Research Siemens Medical Solutions Simutronics Corporation Sony Pictures Imageworks Stanford University Stony Brook University Technische Universit\&\#228;t M\&\#252;nchen University of California, Davis University of North Carolina at Chapel Hill University of Potsdam University of Tokyo University of Toronto University of Utah University of Virginia University of Waterloo Vienna University of Technology VRVis Research CenterSection editors include NVIDIA engineers: Kevin Bjorke, Cem Cebenoyan, Simon Green, Mark Harris, Craig Kolb, and Matthias WlokaThe accompanying CD-ROM includes complementary examples and sample programs.}},
+    author = {Pharr, Matt and Fernando, Randima},
+    citeulike-article-id = {4886728},
+    citeulike-linkout-0 = {http://portal.acm.org/citation.cfm?id=1406887},
+    isbn = {9780321545411},
+    posted-at = {2009-06-18 03:26:12},
+    priority = {2},
+    publisher = {Addison-Wesley Professional},
+    title = {Gpu gems 2: programming techniques for high-performance graphics and general-purpose computation},
+    url = {http://portal.acm.org/citation.cfm?id=1406887},
+    year = {2005}
+}
+
+@article{svm,
+   author = {Cortes, Corinna and Vapnik, Vladimir},
+   title = {Support-vector networks},
+   journal = {Machine Learning},
+   publisher = {Springer Netherlands},
+   issn = {0885-6125},
+   keyword = {Computer Science},
+   pages = {273-297},
+   volume = {20},
+   issue = {3},
+   url = {http://dx.doi.org/10.1007/BF00994018},
+   note = {10.1007/BF00994018},
+   abstract = {Thesupport-vector network is a new learning machine for two-group classification problems. The machine conceptually implements the following idea: input vectors are non-linearly mapped to a very high-dimension feature space. In this feature space a linear decision surface is constructed. Special properties of the decision surface ensures high generalization ability of the learning machine. The idea behind the support-vector network was previously implemented for the restricted case where the training data can be separated without errors. We here extend this result to non-separable training data.},
+   year = {1995}
+}
+
+@inproceedings{lowe:99,
+ author = {Lowe, David G.},
+ title = {Object Recognition from Local Scale-Invariant Features},
+ booktitle = {Proceedings of the International Conference on Computer Vision-Volume 2 - Volume 2},
+ series = {ICCV '99},
+ year = {1999},
+ isbn = {0-7695-0164-8},
+ pages = {1150--},
+ url = {http://portal.acm.org/citation.cfm?id=850924.851523},
+ acmid = {851523},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+} 
+
+
+@misc{spec:2006,
+    author = {{S}tandard {P}erformance {E}valuation {C}orporation},
+    title  = {The {SPEC} {CPU} 2006 Benchmark Suite},
+    URL    = {http://www.spec.org},
+    year   = 2006
+}
+
+@inproceedings{buck:04:brook,
+    address = {New York, NY, USA},
+    author = {Buck, Ian and Foley, Tim and Horn, Daniel and Sugerman, Jeremy and Fatahalian, Kayvon and Houston, Mike and Hanrahan, Pat},
+    booktitle = {SIGGRAPH '04: ACM SIGGRAPH 2004 Papers},
+    citeulike-article-id = {1116360},
+    keywords = {bibtex-import, necst},
+    pages = {777--786},
+    posted-at = {2007-02-21 14:14:53},
+    priority = {2},
+    publisher = {ACM Press},
+    title = {Brook for {GPUs}: stream computing on graphics hardware},
+    year = {2004}
+}
+@book{inteloptimize:07,
+  author        = {Intel Corporation},
+  title         = {{Intel\textsuperscript{\textregistered} 64 and IA-32 Architectures Optimization Reference Manual}},
+  year          = {2011},
+  month         = {January},
+  number        = {248966-023a},
+  publisher     = {Intel Corporation}
+}
+@book{cudaguide:08,
+    author = {{NVIDIA}},
+    citeulike-article-id = {3325943},
+    keywords = {cuda},
+    posted-at = {2008-09-23 23:31:17},
+    priority = {0},
+    title = {{NVIDIA CUDA Programming Guide 2.0}},
+    year = {2008}
+}
+
+@article{hillis:1986,
+ author = {Hillis, W. Daniel and Steele,Jr., Guy L.},
+ title = {Data parallel algorithms},
+ journal = {Commun. ACM},
+ volume = {29},
+ issue = {12},
+ month = {December},
+ year = {1986},
+ issn = {0001-0782},
+ pages = {1170--1183},
+ numpages = {14},
+ url = {http://doi.acm.org/10.1145/7902.7903},
+ doi = {http://doi.acm.org/10.1145/7902.7903},
+ acmid = {7903},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+@article{mccool:2004:sa,
+ author = {McCool, Michael and Du Toit, Stefanus and Popa, Tiberiu and Chan, Bryan and Moule, Kevin},
+ title = {Shader algebra},
+ journal = {ACM Trans. Graph.},
+ volume = {23},
+ issue = {3},
+ month = {August},
+ year = {2004},
+ issn = {0730-0301},
+ pages = {787--795},
+ numpages = {9},
+ url = {http://doi.acm.org/10.1145/1015706.1015801},
+ doi = {http://doi.acm.org/10.1145/1015706.1015801},
+ acmid = {1015801},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {graphics hardware, real-time rendering, shader programming},
+} 
+
+
+@article{flynn:72:comporg,
+    author = {Flynn, M.},
+    citeulike-article-id = {3789408},
+    citeulike-linkout-0 = {http://en.wikipedia.org/wiki/Flynn's\_taxonomy},
+    journal = {IEEE Trans. Comput.},
+    keywords = {dataflow},
+    pages = {948+},
+    posted-at = {2008-12-15 12:22:00},
+    priority = {2},
+    title = {Some Computer Organizations and Their Effectiveness},
+    url = {http://en.wikipedia.org/wiki/Flynn's\_taxonomy},
+    volume = {C-21},
+    year = {1972}
+}
+
+@book{kirk:10:masspara,
+    author = {Kirk, David B. and Hwu, Wen-mei W.},
+    citeulike-article-id = {6853987},
+    citeulike-linkout-0 = {http://www.amazon.ca/exec/obidos/redirect?tag=citeulike09-20\&amp;path=ASIN/0123814723},
+    citeulike-linkout-1 = {http://www.amazon.de/exec/obidos/redirect?tag=citeulike01-21\&amp;path=ASIN/0123814723},
+    citeulike-linkout-2 = {http://www.amazon.fr/exec/obidos/redirect?tag=citeulike06-21\&amp;path=ASIN/0123814723},
+    citeulike-linkout-3 = {http://www.amazon.jp/exec/obidos/ASIN/0123814723},
+    citeulike-linkout-4 = {http://www.amazon.co.uk/exec/obidos/ASIN/0123814723/citeulike00-21},
+    citeulike-linkout-5 = {http://www.amazon.com/exec/obidos/redirect?tag=citeulike07-20\&path=ASIN/0123814723},
+    citeulike-linkout-6 = {http://www.worldcat.org/isbn/0123814723},
+    citeulike-linkout-7 = {http://books.google.com/books?vid=ISBN0123814723},
+    citeulike-linkout-8 = {http://www.amazon.com/gp/search?keywords=0123814723\&index=books\&linkCode=qs},
+    citeulike-linkout-9 = {http://www.librarything.com/isbn/0123814723},
+    day = {05},
+    edition = {1},
+    howpublished = {Paperback},
+    isbn = {0123814723},
+    month = {February},
+    posted-at = {2010-03-18 20:52:00},
+    priority = {1},
+    publisher = {Morgan Kaufmann},
+    title = {Programming Massively Parallel Processors: A Hands-on Approach},
+    url = {http://www.amazon.com/exec/obidos/redirect?tag=citeulike07-20\&path=ASIN/0123814723},
+    year = {2010}
+}
+
+@MISC{intel:08:theevolution,
+  author = {INTEL},
+  title = {The Evolution of a Revolution. http: // download. intel. com/ pressroom/ kits/ IntelProcessorHistory. pdf , Accessed},
+  year = {2008}
+}
+
+@MISC{intel:10:metrics,
+  author = {INTEL},
+  title = {Intel Microprocessor Export Compliance Metrics. http: // www. intel. com/ support/ processors/ sb/ cs-023143. htm , Accessed},
+  year = {2010}
+}
+
+@MISC{nvidia:08:gtx200tech,
+  author = {NVIDIA},
+  title = {Geforce GTX 200 GPU Architectural Overview. http: // www. nvidia. com/ docs/ IO/ 55506/ GeForce\_GTX\_200\_GPU\_Technical\_Brief. pdf , Accessed},
+  year = {2008}
+}
+@article{hwu:2008,
+ author = {Hwu, Wen-mei and Keutzer, Kurt and Mattson, Timothy G.},
+ title = {The Concurrency Challenge},
+ journal = {IEEE Des. Test},
+ volume = {25},
+ issue = {4},
+ month = {July},
+ year = {2008},
+ issn = {0740-7475},
+ pages = {312--320},
+ numpages = {9},
+ url = {http://portal.acm.org/citation.cfm?id=1440404.1440423},
+ doi = {10.1109/MDT.2008.110},
+ acmid = {1440423},
+ publisher = {IEEE Computer Society Press},
+ address = {Los Alamitos, CA, USA},
+ keywords = {concurrency, parallel programming, application frameworks, programming models, programming tools, multicore, many-core, software engineering, autotuning},
+} 
+@article{sutter:05:swconcurrency,
+ author = {Sutter, Herb and Larus, James},
+ title = {Software and the Concurrency Revolution},
+ journal = {Queue},
+ volume = {3},
+ issue = {7},
+ month = {September},
+ year = {2005},
+ issn = {1542-7730},
+ pages = {54--62},
+ numpages = {9},
+ url = {http://doi.acm.org/10.1145/1095408.1095421},
+ doi = {http://doi.acm.org/10.1145/1095408.1095421},
+ acmid = {1095421},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+
+@article{owens:08:gc,
+  author = {John D. Owens and Mike Houston and David Luebke and
+                  Simon Green and John E. Stone and James C. Phillips},
+  title = {{GPU} Computing},
+  journal = {Proceedings of the IEEE},
+  month = may,
+  year = 2008,
+  volume = 96,
+  number = 5,
+  pages = {879--899},
+  url = {http://www.idav.ucdavis.edu/publications/print_pub?pub_id=936},
+  doi = {10.1109/JPROC.2008.917757},
+  ucdcite = {b4}
+}
+
+@article{katz:97:nucsci,
+  author	= {Katz, R. and LaBel, K. and Wang, J.J. and Cronquist, B. and Koga, R. and Penzin, S. and Swift, G.},
+  journal	= {Nuclear Science, IEEE Transactions on}, title="{Radiation effects on current field programmable technologies}",
+  year		= {1997},
+  month		= {dec},
+  volume	= {44},
+  number	= {6},
+  pages		= {1945 -1956},
+  keywords	= {architecture;configuration memory;design;device scaling;field programmable gate array;performance degradation;programmable substrate;quick-turn ASIC;radiation effects;reconfiguration faults;single event susceptibility;space flight electronic system;technology;total dose effect;field programmable gate arrays;radiation effects;space vehicle electronics;},
+  doi		= {10.1109/23.658966},
+  ISSN		= {0018-9499}
+}
+
+@inproceedings{fuller:99:mapld,
+  author	= {Earl Fuller and
+		   Michael Caffrey and
+		   Phil Blain and
+		   Carl Carmichael and
+		   Noor Khalsa and
+		   Anthony Salazar},
+  title		= "{Radiation test results of the Virtex FPGA and ZBT SRAM
+		    for Space Based Reconfigurable Computing}",
+  booktitle	= {MAPLD Proceedings},
+  month		= {September},
+  year		= {1999}
+}
+
+@inproceedings{carmichael:99:mapld,
+  author	= {Carl Carmichael and
+		   Earl Fuller and
+		   Phil Blain and
+		   Michael Caffrey},
+  title		= "{SEU Mitigation Techniques for Virtex FPGAs in Space Applications}",
+  booktitle	= {MAPLD Proceedings},
+  month		= {September},
+  year		= {1999},
+  ee		= {http://www.xilinx.com/esp/mil_aero/collateral/presentations/SEU_mitigation_technique.pdf}
+}
+
+@inproceedings{lima:01:radecs},
+  author	= {Lima, F. and Carmichael, C. and Fabula, J. and Padovani, R. and Reis, R.},
+  booktitle	= {Radiation and Its Effects on Components and Systems, 2001. 6th European Conference on},
+  title		= "{A fault injection analysis of Virtex FPGA TMR design methodology}",
+  year		= {2001},
+  month		= {September},
+  pages		= {275 - 282},
+  keywords	= { SRAM-based FPGA; TMR golden comparison method; Virtex FPGA TMR design methodology; field programmable gate arrays; proton radiation; single bit upset fault injection analysis; spacecraft electronics; triple modular redundancy; SRAM chips; fault simulation; field programmable gate arrays; integrated circuit reliability; proton effects; redundancy; space vehicle electronics;},
+}
+
+@inproceedings{wirthlin:02:mapld,
+  author	= {Michael Wirthlin and 
+		   Nathan Rollins and
+		   Michael Caffrey and
+		   Paul Graham},
+  title		= "{Reliability of Programmable Input/Output Pins in the Presence of Configuration Upsets}",
+  booktitle	= {MAPLD Proceedings},
+  month		= {September},
+  year		= {2002}
+}
+
+@inproceedings{graham:03:mapld,
+  author	= {Paul Graham and
+		   Michael Caffrey and
+		   Jason Zimmerman and
+		   D. Eric Johnson},
+  title		= "{Consequences and Categories of SRAM FPGA Configuration SEUs}",
+  booktitle	= {MAPLD Proceedings},
+  month		= {September},
+  year		= {2003}
+}
+
+@inproceedings{wirthlin:03:fccm,
+  author	= {Michael J. Wirthlin and
+		   D. Eric Johnson and
+		   Nathan Rollins and
+		   Michael Caffrey and
+		   Paul Graham},
+  title		= "{The Reliability of FPGA Circuit Designs in the Presence
+                of Radiation Induced Configuration Upsets}",
+  booktitle	= {FCCM Proceedings},
+  month		= {April},
+  year		= {2003},
+  pages		= {133-142},
+  ee		= {http://csdl.computer.org/comp/proceedings/fccm/2003/1979/00/19790133abs.htm},
+  bibsource	= {DBLP, http://dblp.uni-trier.de}
+}
+
+@inproceedings{wirthlin:03:vlsi,
+  author	= {Michael Wirthlin and Nathan Rollins and Michael Caffrey and Paul Graham},
+  title		= "{Hardness By Design Techniques for Field Programmable Gate Arrays}",
+  booktitle	= {Proceedings of the 11th Annual NASA Symposium for VLSI Design},
+  ee		= {http://www.cambr.uidaho.edu/symposiums/symp11/wirthlin.pdf},
+  month		= {May},
+  year		= {2003}
+}
+
+@article{morgan:07:nucsci,
+  author	= {Morgan, K.L. and McMurtrey, D.L. and Pratt, B.H. and Wirthlin, M.J.},
+  journal	= {Nuclear Science, IEEE Transactions on},
+  title		= "{A Comparison of TMR With Alternative
+		    Fault-Tolerant Design Techniques for FPGAs}",
+  year		= {2007},
+  month		= {December},
+  volume	= {54},
+  number	= {6},
+  pages		= {2065-2072},
+  keywords	= {Field Programmable Gate Arrays;SRAM-based FPGAs;error propagation;fault mitigation technique;fault-tolerant design techniques;proton accelerator;quadded logic;state machine encoding;triple-modular redundancy;SRAM chips;encoding;fault tolerance;field programmable gate arrays;proton accelerators;redundancy;},
+  doi		= {10.1109/TNS.2007.910871},
+  ISSN		= {0018-9499}
+}
+
+@article{ostler:09:nucsci,
+  author	= {Ostler, P.S. and Caffrey, M.P. and Gibelyou, D.S. and
+		   Graham, P.S. and Morgan, K.S. and Pratt, B.H. and
+		   Quinn, H.M. and Wirthlin, M.J.},
+  journal	= {Nuclear Science, IEEE Transactions on},
+  title		= "{SRAM FPGA Reliability Analysis for Harsh Radiation Environments}",
+  year		= {2009},
+  month		= {December},
+  volume	= {56},
+  number	= {6},
+  pages		= {3519-3526},
+  keywords	= {Earth-orbit environment;LEO orbit;MTTF;SEU rate;SRAM FPGA design;SRAM-based FPGA reliability analysis;TMR;accelerator experiment;fault-injection experiment;harsh radiation environment;mean time-to-failure;scrubbing period;solar cycle;SRAM chips;failure analysis;field programmable gate arrays;integrated circuit reliability;logic design;radiation hardening (electronics);},
+  doi		= {10.1109/TNS.2009.2033381},
+  ISSN		= {0018-9499}
+}
+
+@article{pratt:08:nucsci,
+  author	= {Pratt, B. and Caffrey, M. and Carroll, J.F. and Graham, P. and Morgan, K. and Wirthlin, M.},
+  journal	= {Nuclear Science, IEEE Transactions on},
+  title		= "{Fine-Grain SEU Mitigation for FPGAs Using Partial TMR}",
+  year		= {2008},
+  month		= {August},
+  volume	= {55},
+  number	= {4},
+  pages		= {2274-2280},
+  keywords	= {FPGA;field-programmable gate arrays;fine-grain mitigation;maximum reliability gain;single-event upsets;triple modular redundancy;circuit CAD;field programmable gate arrays;integrated circuit reliability;logic design;radiation effects;},
+  doi		= {10.1109/TNS.2008.2000852},
+  ISSN		= {0018-9499}
+}
+
+@inproceedings{pratt:09:fpla,
+  author	= {Pratt, B.H. and Wirthlin, M.J. and Caffrey, M. and Graham, P. and Morgan, K.},
+  booktitle	= {Field Programmable Logic and Applications, 2009. FPL 2009. International Conference on},
+  title		= "{Noise impact of single-event upsets on an
+		    FPGA-based digital filter}",
+  year		= {2009},
+  month		= {September},
+  pages		= {38-43},
+  keywords	= {DSP;FPGA-based digital filter;SEU;SRAM-based FPGA;TMR mitigation technique;configuration memory;digital communication;field-programmable gate array;noise impact;reliable system;single-event upset;SRAM chips;digital filters;digital signal processing chips;field programmable gate arrays;},
+  doi		= {10.1109/FPL.2009.5272554},
+  ISSN		= {1946-1488}
+}
+
+@inproceedings{quinn:09:ftsc,
+  author	= {Heather Quinn and Paul Graham},
+  title		= "{Reliability Modeling Tools for Improving Space
+		    System Design: Case Studies and Results}",
+  booktitle	= {The 2nd Annual Fault-Tolerant Spaceborne Computing Employing New Technologies},
+  ee		= {http://www.cs.sandia.gov/CSRI/Workshops/2009/FaultTolerantSpaceborne/presentations/W-1330-Quinn-LANL-SC-starc-2009.pdf},
+  month		= {May},
+  year		= {2009}
+}
+
+@inproceedings{allen:06:radwksp,
+  author	= {Gregory R. Allen and Gary M. Swift},
+  booktitle	= {Radiation Effects Data Workshop, 2006 IEEE},
+  title		= "{Single Event Effects Test Results for Advanced
+		    Field Programmable Gate Arrays}",
+  year		= {2006},
+  month		= {July},
+  pages		= {115-120},
+  keywords	= {ASIC;FPGA;HardCopy II;LET threshold;ProASIC device;Stratix II;application specific integrated circuit;design-level flip-flops;field programmable gate arrays;heavy ions;single event effects;single event testing;triple modular redundancy mitigation techniques;application specific integrated circuits;field programmable gate arrays;flip-flops;radiation hardening (electronics);},
+  doi		= {10.1109/REDW.2006.295478},
+}
+
+@inproceedings{allen:06:radwksp,
+  author	= {Gregory R. Allen and Gary M. Swift},
+  booktitle	= {Radiation Effects Data Workshop, 2006 IEEE},
+  title		= "{Single Event Effects Test Results for Advanced
+		    Field Programmable Gate Arrays}",
+  year		= {2006},
+  month		= {July},
+  pages		= {115-120},
+  keywords	= {ASIC;FPGA;HardCopy II;LET threshold;ProASIC device;Stratix II;application specific integrated circuit;design-level flip-flops;field programmable gate arrays;heavy ions;single event effects;single event testing;triple modular redundancy mitigation techniques;application specific integrated circuits;field programmable gate arrays;flip-flops;radiation hardening (electronics);},
+  doi		= {10.1109/REDW.2006.295478},
+}
+
+@inproceedings{sterpone:08:wreft,
+  author	= {Luca Sterpone and Niccolo Battezzati and Massimo Violante},
+  title		= "{A New Placement Algorithm for the Optimization of Fault
+		    Tolerant Circuits on Reconfigurable Devices}",
+  booktitle	= {WREFT '08: Proceedings of the 2008 workshop on Radiation effects and fault tolerance in nanometer technologies},
+  year		= {2008},
+  isbn		= {978-1-60558-092-9},
+  pages		= {347-352},
+  location	= {Ischia, Italy},
+  doi		= {http://0-doi.acm.org.skyline.ucdenver.edu/10.1145/1366224.1366228},
+  publisher	= {ACM},
+  address	= {New York, NY, USA},
+}
+
+@article{sterpone:06:comp,
+  author	= {Luca Sterpone and Massimo Violante},
+  title		= "{A New Reliability-Oriented Place and Route Algorithm for
+		    SRAM-Based FPGAs}",
+  journal	= {IEEE Trans. Comput.},
+  volume	= {55},
+  number	= {6},
+  year		= {2006},
+  issn		= {0018-9340},
+  pages		= {732-744},
+  doi		= {http://0-dx.doi.org.skyline.ucdenver.edu/10.1109/TC.2006.82},
+  publisher	= {IEEE Computer Society},
+  address	= {Washington, DC, USA},
+}
+
+@inproceedings{bernardi:04:olts,
+  author	= {Bernardi, P. and Sonza Reorda, M. and Sterpone, L. and Violante, M.},
+  title		= "{On the Evaluation of SEU Sensitiveness in SRAM-Based FPGAs}",
+  booktitle	= {IOLTS '04: Proceedings of the International On-Line Testing Symposium, 10th IEEE},
+  year		= {2004},
+  isbn		= {0-7695-2180-0},
+  pages		= {115},
+  doi		= {http://0-dx.doi.org.skyline.ucdenver.edu/10.1109/IOLTS.2004.33},
+  publisher	= {IEEE Computer Society},
+  address	= {Washington, DC, USA},
+}
+
+@inproceedings{allen:10:radecs,
+  author	= {Allen, G.R. and
+		   Edmonds, L. and
+		   Swift, G.M. and
+		   Carmichael, C. and
+		   Tseng, C.W. and
+		   Heldt, K.J. and
+		   Anderson, S.A. and
+		   Coe, M.},
+  booktitle	= {Radiation and Its Effects on Components and Systems, 2010. RADECS 2010. 12th European Conference on},
+  title		= "{Single Event Test Methodologies and System Error
+		    Rate Analysis for Triple Modular Redundant Field
+		    Programmable Gate Arrays}",
+  month		= {Expected September},
+  year		= {2010}
+}
+
+@inproceedings{duzellier:03:radecs,
+  author	= {Sophie Duzellier},
+  title		= {Component Characterization and Testing: Single Event},
+  booktitle	= {RADECS short course},
+  year		= {2003}
+}
+
+@misc{edmonds:09:jpl,
+  author	= {Larry Edmonds},
+  title		= "{Analysis of SEU Rates in TMR Devices}",
+  howpublished	= "Web site: {http://trs-new.jpl.nasa.gov/dspace/bitstream/2014/41123/1/09-6.pdf}",
+  month		= {February},
+  year		= {2009}
+}
+
+@techreport{allen:08:v4seu,
+  author	= {Gregory R. Allen and Gary Swift and Carl Carmichael},
+  title		= "{Virtex-4QV Static SEU Characterization Summary}",
+  institution	= {NASA, California Institute of Technology, Jet Propulsion Laboratory},
+  howpublished	= "Web site: {http://parts.jpl.nasa.gov/docs/NEPP07/NEPP07FPGAv4Static.pdf}",
+  note		= {JPL Publication 08-16 04/08},
+  year		= {2008},
+  month		= {September},
+  day		= {15}
+}
+
+@techreport{allen:09:v4dyn,
+  author	= {Gregory R. Allen},
+  title		= "{Virtex-4QV Dynamic and Mitigated Single-Event Upset Characterization Summary}",
+  institution	= {NASA, California Institute of Technology, Jet Propulsion Laboratory},
+  howpublished	= "Web site: {http://trs-new.jpl.nasa.gov/dspace/bitstream/2014/41104/1/09-04.pdf}",
+  note		= {JPL Publication 08-16 04/08},
+  year		= {2009},
+  month		= {April},
+  day		= {1}
+}
+
+@techreport{xilinx:xapp197,
+  author	= {Carl Carmichael},
+  title		= "{Triple Module Redundancy Design Techniques for Virtex FPGAs}",
+  institution	= {Xilinx Corporation},
+  note		= "XAPP197",
+  month		= "November",
+  day		= "1",
+  year		= "2001"
+}
+
+@techreport{wei:08:faultinj,
+  author	= {Gary Swift and Chen Wei Tseng and Greg Miller},
+  title		= "{Updates on CfgMon and Fault Injection Infrastructure Development}",
+  institution	= {Xilinx Corporation},
+  note		= "Internal Document",
+  month		= "June",
+  day		= "4",
+  year		= "2008"
+}
+
+@misc{xilinx:see,
+  author	= "Xilinx Corporation",
+  title		= "{Single-Event Effects Consortium}",
+  howpublished	= "Web site: {http://www.xilinx.com/esp/aero\_def/see.htm}",
+  year		= "2007"
+}
+
+@misc{xilinx:dev,
+  author	= "Xilinx Corporation",
+  title		= "{Development System Reference Guide}",
+  howpublished	= "Web site: {http://www.xilinx.com/itp/xilinx9/books/docs/dev/dev.pdf}",
+  year		= "2007"
+}
+
+@misc{xilinx:v4,
+  author	= "Xilinx Corporation",
+  title		= "{Xilinx DS112 Virtex-4 Family Overview, data sheet}",
+  howpublished	= "Web site: {http://direct.xilinx.com/bvdocs/publications/ds112.pdf}",
+  year		= "2007"
+}
+
+@misc{xilinx:v4_ug,
+  author	= "Xilinx Corporation",
+  title		= "{Xilinx Virtex-4 FPGA User Guide}",
+  howpublished	= "Web site: {http://www.xilinx.com/support/documentation/user\_guides/ug070.pdf}",
+  year		= "2008"
+}
+
+@misc{nasa:see,
+  author	= "NASA Goddard Space Flight Center",
+  title		= "{Draft: Single Event Effects Specification}",
+  howpublished	= "Web site: {http://radhome.gsfc.nasa.gov/radhome/papers/seespec.htm}",
+  month		= "May",
+  day		= "20",
+  year		= "2009"
+}
+
+@techreport{actel:seus,
+  author	= " ",
+  title		= "{Single-Event Effects in FPGAs}",
+  institution	= {Actel Corporation},
+  howpublished	= "Web site: {http://www.actel.com/documents/FirmErrorPIB.pdf}",
+  year		= "2006",
+}
+
+@misc{xilinx:microblaze,
+author = " ",
+title = "MicroBlaze Processor Reference Guide",
+howpublished = "Web site: {http://www.xilinx.com/ise/embedded/mb\_ref\_guide.pdf}",
+month = "June",
+day = "1",
+year = "2006",
+key = "xilinx:microblaze"
+}
+
+
+@misc{xilinx:xupv2p,
+author = "",
+title = "Xilinx University Program Virtex-II Pro Development System",
+howpublished = "Web site: {http://digilentinc.com/Data/Products/XUPV2P/ XUPV2P\_User\_Guide.pdf}",
+day = "8",
+month = "March",
+year = "2005",
+key = "xilinx:xupv2p"
+}
+
+@misc{xilinx:v2p,
+author = " ",
+title = "Virtex-II Pro and Virtex-II Pro X Platform FPGAs:  Complete Data Sheet",
+howpublished = "Web site: {http://direct.xilinx.com/bvdocs/publications/ds083.pdf}",
+day = "10",
+month = "October",
+year = "2005",
+key = "xilinx:v2p"
+}
+
+@inproceedings{goldfarb13sc,
+ author = {Goldfarb, Michael and Jo, Youngjoon and Kulkarni, Milind},
+ title = {General Transformations for GPU Execution of Tree Traversals},
+ booktitle = {Proceedings of SC13:  International Conference for High Performance Computing, Networking, Storage and Analysis},
+ series = {SC '13},
+ year = {2013},
+ isbn = {978-1-4503-2378-9},
+ location = {Denver, Colorado},
+ pages = {10:1--10:12},
+ articleno = {10},
+ numpages = {12},
+ url = {http://doi.acm.org/10.1145/2503210.2503223},
+ doi = {10.1145/2503210.2503223},
+ acmid = {2503223},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {GPU, irregular programs, tree traversals, vectorization},
+}
+
+@article{Bedorf:2012:SOG:2133856.2134140,
+ author = {B{\'e}dorf, Jeroen and Gaburov, Evghenii and Portegies Zwart, Simon},
+ title = {A Sparse Octree Gravitational N-body Code That Runs Entirely on the GPU Processor},
+ journal = {J. Comput. Phys.},
+ issue_date = {April, 2012},
+ volume = {231},
+ number = {7},
+ month = apr,
+ year = {2012},
+ issn = {0021-9991},
+ pages = {2825--2839},
+ numpages = {15},
+ url = {http://dx.doi.org/10.1016/j.jcp.2011.12.024},
+ doi = {10.1016/j.jcp.2011.12.024},
+ acmid = {2134140},
+ publisher = {Academic Press Professional, Inc.},
+ address = {San Diego, CA, USA},
+ keywords = {GPU, Gravity, Hierarchical, N-body, Parallel, Tree-code},
+}
+
+@article{DBLP:journals/gis/ZhangY13,
+  author    = {Jianting Zhang and
+               Simin You},
+  title     = {High-performance quadtree constructions on large-scale geospatial
+               rasters using {GPGPU} parallel primitives},
+  journal   = {International Journal of Geographical Information Science},
+  volume    = {27},
+  number    = {11},
+  pages     = {2207--2226},
+  year      = {2013},
+  url       = {http://dx.doi.org/10.1080/13658816.2013.828840},
+  doi       = {10.1080/13658816.2013.828840},
+  timestamp = {Wed, 29 Jan 2014 14:25:56 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/gis/ZhangY13},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@MISC{Kelly:gpu,
+author = {Maria Kelly and Alexander Breslow},
+title = {Quadtree Construction on the GPU: A Hybrid CPU-GPU Approach. https://www.sccs.swarthmore.edu/users/10/mkelly1/quadtrees.pdf},
+year = ""
+}
+
+@MISC{shaff:quad,
+author = {Clifford A. Shaffer and Patrick R. Brown},
+title = {A Paging Scheme for Pointer-Based Quadtree. https://people.cs.vt.edu/shaffer/Papers/Paging.pdf},
+year = ""
+}
+
+@MISC{nvidia:12:gtx680tech,
+ author = {NVIDIA},
+ title = {White paper NVIDIA GeForce GTX 680.},
+ year = {2012}
+}
+
+@MISC{nvidia:12:gk110,
+  author = {NVIDIA},
+  title = {White paper KeplerTM GK110. https://www.nvidia.com/content/PDF/kepler/NVIDIA-Kepler-GK110-Architecture-Whitepaper.pdf, Accessed},
+  year = {2012}
+}
+
+@article{Eppstein:2000:FHC:351827.351829,
+ author = {Eppstein, David},
+ title = {Fast Hierarchical Clustering and Other Applications of Dynamic Closest Pairs},
+ journal = {J. Exp. Algorithmics},
+ issue_date = {2000},
+ volume = {5},
+ month = dec,
+ year = {2000},
+ issn = {1084-6654},
+ articleno = {1},
+ url = {http://doi.acm.org/10.1145/351827.351829},
+ doi = {10.1145/351827.351829},
+ acmid = {351829},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {TSP, conga line data structure, matching, nearest-neighbor heuristic, quadtree},
+}
+
+@book{Kirk:2010:PMP:1841511,
+ author = {Kirk, David B. and Hwu, Wen-mei W.},
+ title = {Programming Massively Parallel Processors: A Hands-on Approach},
+ year = {2010},
+ isbn = {0123814723, 9780123814722},
+ edition = {1st},
+ publisher = {Morgan Kaufmann Publishers Inc.},
+ address = {San Francisco, CA, USA},
+} 
+
+@MISC{barnes:hut,
+  author = {Martin Burtscher and Keshav Pingali},
+  title = {An Efficient CUDA 6 Implementation of the Tree-Based Barnes Hut n-Body Algorithm},
+  year = ""
+}
